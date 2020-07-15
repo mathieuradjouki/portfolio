@@ -10,19 +10,22 @@
           <form class="contact" name="contact" method="post">
             <div class="form-group">
               <label for="contact_name">Name</label>
-              <input type="text" placeholder="Antoine DUPONT" name="" id="contact_name" class="form-control input-contact">
+              <input type="text" placeholder="Antoine DUPONT" name="" id="contact_name" class="form-control input-contact" required pattern="[A-Za-z' -]+">
             </div>
             <div class="form-group">
               <label for="contact_email">Email</label>
-              <input type="text" placeholder="monemail@email.com" name="" id="contact_email"class="form-control input-contact">
+              <input type="email" placeholder="monemail@email.com" name="" id="contact_email"class="form-control input-contact" required>
             </div>
             <div class="form-group">
               <label for="contact_object">Object</label>
-              <input type="text" name="" class="form-control input-contact" id="contact_object">
+              <input type="text" name="" class="form-control input-contact" id="contact_object" required pattern="[0-9][A-Za-z' -]+">
             </div>
             <div class="form-group">
               <label for="contact_message">Message</label>
-              <textarea name="" rows="8" class="form-control input-contact"></textarea>
+              <textarea name="" rows="8" class="form-control input-contact" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" name="" id=contact_send>Envoyer message</button>
             </div>
           </form>
         </div>

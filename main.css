@@ -15,3 +15,11 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/*footer*/
+
+/*form*/
+.input-contact{
+  border: none;
+  border-bottom: solid 1.5px;
+  border-radius: 0;
+}

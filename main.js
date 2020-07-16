@@ -1,9 +1,9 @@
 //footer
 //form contact
 function validForm() {
-  var champs = document.forms["contact"]["name"]["email"]["object"]["message"].value;
+  var champs = document.forms["contact"]["name"]["mail"]["object"]["message"].value;
   if (champs == "") {
-    alert("remplissez tous les champs");
+    alert("Remplissez tous les champs!");
     return false;
   }
 }

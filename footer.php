@@ -1,3 +1,4 @@
+
 <section class="contact p-5">
   <div class="container-fluid">
     <div class="row">
@@ -7,10 +8,10 @@
       <div class="row w-100 m-0">
         <!--Form contact-->
         <div class="col-12">
-          <form class="contact" name="contact" method="post" onsubmit="return validForm()">
+          <form class="contact" action="contact.php" name="contact" method="POST" onsubmit="return validForm()">
             <div class="form-group">
               <label for="contact_name">Name</label>
-              <input type="text" placeholder="Antoine DUPONT" name="name" id="contact_name" class="form-control input-contact" >
+              <input type="text" placeholder="Antoine DUPONT" name="name" id="contact_name" class="form-control input-contact" required pattern="[A-Za-z' -]+" maxlength="25">
             </div>
             <div class="form-group">
               <label for="contact_email">Email</label>
@@ -22,10 +23,10 @@
             </div>
             <div class="form-group">
               <label for="contact_message">Message</label>
-              <textarea name="message" rows="8" class="form-control input-contact" required></textarea>
+              <textarea name="message" rows="8" id="contact_message" class="form-control input-contact" required></textarea>
             </div>
             <div class="form-group">
-              <button type="submit" name="" id=contact_send>Envoyer message</button>
+              <button type="submit" id=contact_send>Envoyer message</button>
             </div>
           </form>
         </div>

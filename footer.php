@@ -8,19 +8,19 @@
       <div class="row w-100 m-0">
         <!--Form contact-->
         <div class="col-12">
-          <?php if(isset($_SESSION['errors'])); ?>
+          <?php if(isset($_SESSION['errors'])): ?>
             <div class="alert alert-danger">
               <?= implode("<br>",$_SESSION['errors']); ?>
             </div>
-          <?php unset($_SESSION['errors']); ?>
-          <form class="contact" action="footer.php" name="contact" method="POST" onsubmit="return validForm()">
+            <?php endif; ?>
+          <form class="contact" action="contact.php" name="contact" method="POST" onsubmit="return validForm()">
             <div class="form-group">
               <label for="contact_name">Name</label>
               <input type="text" placeholder="Antoine DUPONT" name="name" id="contact_name" class="form-control input-contact" required pattern="[A-Za-z' -]+" maxlength="25">
             </div>
             <div class="form-group">
               <label for="contact_email">E-mail</label>
-              <input type="email" placeholder="monemail@email.com" name="email" id="contact_email"class="form-control input-contact" required>
+              <input type="text" placeholder="monemail@email.com" name="email" id="contact_email"class="form-control input-contact" required>
             </div>
             <div class="form-group">
               <label for="contact_object">Objet</label>
@@ -40,34 +40,6 @@
   </div>
 </section>
 
-<?php
-
-$errors = [];
- if(isset($_POST['name'])) {
-    $errors['name'] = "vous n'avez pas renseigné votre nom";
- }
- if(isset($_POST['mail'])) {
-    $errors['mail'] = "vous n'avez pas renseigné votre email";
- }
- if(isset($_POST['object'])) {
-    $errors['object'] = "vous n'avez pas renseigné d'objet";
- }
- if(isset($_POST['message'])) {
-    $errors['message'] = "vous n'avez pas écrit votre message";
- }
- if(!empty($errors)){
-   session_start();
-   $_SESSION['errors'] = $errors;
-   header('location: index.php#contact');
- }else{
-   $message = $_POST['message'];
-   $headers = 'FROM: siteportfolio@condeur.online';
-   mail('m.radjouki@codeur.online', 'formulaire de contact', $message, $headers);
- }
- var_dump($errors);
- die();
-
- ?>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -75,3 +47,4 @@ $errors = [];
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
+<?php unset($_SESSION['errors']); ?>

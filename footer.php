@@ -1,4 +1,4 @@
-
+<?php include '_inc.php' ?>
 <section class="contact p-5" id="contact">
   <div class="container-fluid">
     <div class="row">
@@ -6,7 +6,7 @@
       <h2 class="text-center">Pour plus d'information n'hésitez pas à me contacter</h2>
       </div>
       <div class="row w-100 m-0">
-        <!--Form contact-->
+
         <div class="col-12">
           <?php if(isset($_SESSION['errors'])): ?>
             <div class="alert alert-danger">
@@ -18,26 +18,17 @@
                 Votre email a été envoyé avec succés!
               </div>
             <?php endif; ?>
+        <!--Form contact-->
           <form class="contact" action="contact.php" name="contact" method="POST" onsubmit="return validForm()">
-            <div class="form-group">
-              <label for="contact_name">Nom</label>
-              <input type="text" placeholder="Prenom NOM" name="name" id="contact_name" class="form-control input-contact" required pattern="[A-Za-z' -]+" maxlength="25" value="<?= isset($_SESSION['input']['name']) ? $_SESSION['input']['name'] : '';?>">
-            </div>
-            <div class="form-group">
-              <label for="contact_email">E-mail</label>
-              <input type="email" placeholder="monemail@email.com" name="email" id="contact_email"class="form-control input-contact" required value="<?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] : '';?>">
-            </div>
-            <div class="form-group">
-              <label for="contact_object">Objet</label>
-              <input type="text" name="object" class="form-control input-contact" id="contact_object" required pattern="[A-Za-z' -]+" value="<?= isset($_SESSION['input']['object']) ? $_SESSION['input']['object'] : '';?>">
-            </div>
-            <div class="form-group">
-              <label for="contact_message">Message</label>
-              <textarea name="message" rows="8" id="contact_message" class="form-control input-contact" required><?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] : '';?></textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-outline-dark" id="contact_send">Envoyer message</button>
-            </div>
+              <?php $form = new Form(); ?>
+                  <?= $form-> text('name','Votre nom','Prenom Nom'); ?>
+                  <?= $form-> email('email','Votre email','monemail@email.com') ?>
+                  <?= $form-> text('object','Objet','Objet du message') ?>
+                  <?= $form-> textarea('message','Votre message', '') ?>
+                  <?= $form-> submit('Envoyez message') ?>
+                  <?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] : '';?>
+                  <?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] : '';?></textarea>
+
           </form>
         </div>
       </div>

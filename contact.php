@@ -14,6 +14,7 @@ $errors = [];
  if(!isset($_POST['message'])) {
     $errors['message'] = "vous n'avez pas écrit votre message";
  }
+
  session_start();
  if(!empty($errors)){
    $_SESSION['errors'] = $errors;

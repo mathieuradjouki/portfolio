@@ -23,11 +23,12 @@
               <?php $form = new Form(); ?>
                   <?= $form-> text('name','Votre nom','Prenom Nom'); ?>
                   <?= $form-> email('email','Votre email','monemail@email.com') ?>
+                  <?= $form-> tel('tel','Téléphone','XX XX XX XX XX') ?> 
                   <?= $form-> text('object','Objet','Objet du message') ?>
-                  <?= $form-> textarea('message','Votre message', '') ?>
+                  <?= $form-> textarea('message','Votre message', 'Ecrivez ici') ?>
                   <?= $form-> submit('Envoyez message') ?>
                   <?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] : '';?>
-                  <?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] : '';?></textarea>
+                  <?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] : '';?>
 
           </form>
         </div>

@@ -19,6 +19,7 @@ header{
   position: absolute;
   transform: translate(20px, -730px);
 }
+/* Bouton d'ouverture et fermeture du menu*/
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 1px;
@@ -28,18 +29,18 @@ header{
 .close-bar1 {
   width: 35px;
   height: 1px;
-  background-color: #333;
+  background-color: white;
   margin: 6px 0;
 
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-6px, 5px);
+  -webkit-transform: rotate(-45deg) ;
+  transform: rotate(-45deg);
 }
 .close-bar3{ width: 35px;
   height: 1px;
-  background-color: #333;
+  background-color: white;
   margin: 6px 0;
-   -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-6px, -5px);
+   -webkit-transform: rotate(45deg) translate(-9px, -6px);
+  transform: rotate(45deg) translate(-5px, -5px);
   }
   /* The Overlay (background) */
   .overlay {
@@ -61,15 +62,15 @@ header{
     position: relative;
     top: 25%; /* 25% from the top */
     width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
+    margin-left: 10%;
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
   }
 
   /* The navigation links inside the overlay */
   .overlay a {
-    padding: 8px;
+    padding: 0 0 3% 0;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 45px;
     color: #818181;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
@@ -84,7 +85,7 @@ header{
   .overlay .closebtn {
     position: absolute;
     top: 20px;
-    right: 45px;
+    right: 2%;
     font-size: 60px;
   }
 

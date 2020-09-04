@@ -14,13 +14,21 @@ function closeNav() {
 // Logo
 
 // Open the logo when the mouse on mouseover
+// document.getElementById("logo-header-closed").addEventListener("mouseover", function(){
+//   document.getElementById("logo-header-closed").style.display = "none";
+//   document.getElementById("logo-header-open").style.display = "block";
+// })
+//
+// // Close the logo on mouseout
+// document.getElementById("logo-header-open").addEventListener("mouseout", function(){
+//   document.getElementById("logo-header-open").style.display = "none";
+//   document.getElementById("logo-header-closed").style.display = "block";
+// })
 document.getElementById("logo-header-closed").addEventListener("mouseover", function(){
-  document.getElementById("logo-header-closed").style.display = "none";
-  document.getElementById("logo-header-open").style.display = "block";
-})
-
-// Close the logo on mouseout
-document.getElementById("logo-header-open").addEventListener("mouseout", function(){
-  document.getElementById("logo-header-open").style.display = "none";
-  document.getElementById("logo-header-closed").style.display = "block";
+  document.getElementById("logo-header-closed").src = "images/logo-hover.png";
+    if (document.getElementById("logo-header-closed").src = "images/logo-hover.png") {
+      document.getElementById("logo-header-closed").addEventListener("mouseout", function(){
+        document.getElementById("logo-header-closed").src = "images/logo.png";
+    })
+  }
 })

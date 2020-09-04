@@ -11,7 +11,7 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
-// Logo
+// Logo header
 
 // Open the logo when the mouse on mouseover
 // document.getElementById("logo-header-closed").addEventListener("mouseover", function(){
@@ -24,11 +24,36 @@ function closeNav() {
 //   document.getElementById("logo-header-open").style.display = "none";
 //   document.getElementById("logo-header-closed").style.display = "block";
 // })
-document.getElementById("logo-header-closed").addEventListener("mouseover", function(){
-  document.getElementById("logo-header-closed").src = "images/logo-hover.png";
-    if (document.getElementById("logo-header-closed").src = "images/logo-hover.png") {
-      document.getElementById("logo-header-closed").addEventListener("mouseout", function(){
-        document.getElementById("logo-header-closed").src = "images/logo.png";
+
+var logo = document.getElementById("logo-header-closed")
+// // Open the logo when the mouse on mouseover
+// logo.addEventListener("mouseover", function(){
+// // Change src document when mouseover
+//   logo.src = "images/logo-hover.png";
+// // Get back original src when mouseout
+//     if (logo.src = "images/logo-hover.png") {
+//       logo.addEventListener("mouseout", function(){
+//         logo.src = "images/logo.png";
+//     })
+//   }
+// })
+
+var logo = document.getElementById("logo-header-closed")
+// Open the logo when the mouse on mouseover
+logo.addEventListener("mouseover", function(){
+// Change src document when mouseover
+logo.style.animation = "closed-logo 3s";
+if (logo.style.opacity = "0") {
+  logo.src = "images/logo-hover.png";
+}
+if (logo.src = "images/logo-hover.png") {
+  logo.style.annimation = "open-logo 3s";
+}
+
+// Get back original src when mouseout
+    if (logo.src = "images/logo-hover.png") {
+      logo.addEventListener("mouseout", function(){
+        logo.src = "images/logo.png";
     })
   }
 })

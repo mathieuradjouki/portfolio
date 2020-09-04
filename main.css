@@ -15,6 +15,15 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@keyframes closed-logo {
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100% { opacity: 0;}
+}
+@keyframes open-logo {
+  form {opacity: 0;}
+  to { opacity: 1;}
+}
 /* .main-logo-open{
   position: absolute;
   top: 50%;

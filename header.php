@@ -18,8 +18,8 @@
           <div class="bar3"></div>
         </div>
       <!--Logo-->
-        <img src="images/logo.png" id="logo-header-closed" onmouseover="openLogo" alt="logo" class="main-logo">
-        <img src="images/logo-hover.png" id="logo-header-open" alt="logo" class="main-logo-open">
+        <img src="images/logo.png" id="logo-header-closed"  alt="logo" class="main-logo">
+        <img src="images/logo-hover.png" id="logo-hover" alt="logo" class="main-logo-hover">
       <!-- The overlay -->
         <div class="menu">
           <div id="myNav" class="overlay">

@@ -12,14 +12,19 @@ function closeNav() {
 }
 
 // Logo header
-var logo = document.getElementById("logo-header-closed")
+var logo = document.getElementById("logo-top")
 var logoHover = document.getElementById("logo-hover")
-// Open the logo when the mouse on mouseover
-  logo.addEventListener("mouseover", function(){
-  logo.style.animation = "closed-logo 1s ";
-})
-// Close the logo on mouseout
-  logoHover.addEventListener("mouseout", function(){
-  logoHover.style.display = "none";
-  logo.style.display = "block";
-})
+function startAnimation(){
+  logo.style.animation = "closed-logo 1s";
+  logoHover.classList.toggle("main-logo-hover-open");
+}
+//Open the logo when the mouse on mouseover
+  logo.addEventListener("mouseover", startAnimation, {
+    once:true,
+  });
+  // if (startAnimation = true) {
+  //   logo.addEventListener(function(){
+  //     logo.style.display = "none";
+  //     logoHover.style.display = "block";
+  //   })
+  // }

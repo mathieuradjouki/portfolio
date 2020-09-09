@@ -15,10 +15,10 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   animation-fill-mode:  forwards!important;
+  animation-iteration-count: 1;
 }
 @keyframes closed-logo {
   0% {opacity: 1;}
-
   100% { opacity: 0;}
 }
 @keyframes open-logo {
@@ -29,8 +29,16 @@ header{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -45%);
   opacity: 0;
+}
+.main-logo-hover-open{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  animation: open-logo 2s;
+  animation-fill-mode:  forwards!important;
 }
 .open-menu{
   position: absolute;

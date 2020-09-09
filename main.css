@@ -9,6 +9,7 @@ header{
   width: 100%;
   object-fit: cover;
 }
+/* Gestion du logo */
 .main-logo{
   position: absolute;
   top: 50%;
@@ -40,9 +41,11 @@ header{
   animation: open-logo 2s;
   animation-fill-mode:  forwards!important;
 }
+/* Burger menu */
 .open-menu{
   position: absolute;
-  transform: translate(20px, -730px);
+  /* transform: translate(20px, -730px); */
+  margin: 2%;
 }
 /* Bouton d'ouverture et fermeture du menu*/
 .bar1, .bar2, .bar3 {

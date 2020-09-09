@@ -9,14 +9,15 @@
   </head>
   <body>
     <header>
-      <!--Images fond-->
-        <img src="images/header.jpg" alt="fond-header" class="header-bg">
       <!--Icone ouvrant menu-->
         <div class="open-menu" onclick="openNav()">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
+      <!--Images fond-->
+        <img src="images/header.jpg" alt="fond-header" class="header-bg">
+
       <!--Logo-->
         <img src="images/logo-hover.png" id="logo-hover" alt="logo" class="main-logo-hover">
         <img src="images/logo.png" id="logo-top"  alt="logo" class="main-logo">

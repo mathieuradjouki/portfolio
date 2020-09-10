@@ -7,20 +7,21 @@
      <title>Portfolio Mathieu RADJOUKI</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link rel="stylesheet" href="main.css">
-     <script src="main.js"></script>
   </head>
   <body>
     <header>
-      <!--Images fond-->
-        <img src="images/header.jpg" alt="fond-header" class="header-bg">
       <!--Icone ouvrant menu-->
         <div class="open-menu" onclick="openNav()">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
+      <!--Images fond-->
+        <img src="images/header.jpg" alt="fond-header" class="header-bg">
+
       <!--Logo-->
-        <img src="images/logo.png" id="logo-header" onmouseover="openLogo" alt="logo" class="main-logo">
+        <img src="images/logo-hover.png" id="logo-hover" alt="logo" class="main-logo-hover">
+        <img src="images/logo.png" id="logo-top"  alt="logo" class="main-logo">
       <!-- The overlay -->
         <div class="menu">
           <div id="myNav" class="overlay">
@@ -35,7 +36,8 @@
       <!-- Overlay content -->
             <div class="overlay-content">
               <a href="#">A propos</a>
-              <a href="#">Projet</a>
+              <a href="#">Projets</a>
+              <a href="#">Télecharger CV</a>
               <a href="#">Contact</a>
             </div>
           </div>

@@ -36,3 +36,4 @@ function startAnimation(){
       alert("Remplissez tous les champs!");
       return false;
     }
+}

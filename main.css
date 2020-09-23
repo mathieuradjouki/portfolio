@@ -1,3 +1,7 @@
+/* css commun */
+p{
+  font-size: 20px;
+}
 /*header*/
 header{
   width: 100%;
@@ -5,7 +9,7 @@ header{
   position: relative;
 }
 .header-bg{
-  max-height: 100vh;
+  height: 100vh;
   width: 100%;
   object-fit: cover;
 }
@@ -137,3 +141,41 @@ header{
   .message{
     height: 150px !important;
   }
+
+/* about */
+.about{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container-about{
+  display: flex;
+  justify-content: space-between;
+}
+.portrait{
+  width: 45%;
+}
+.portrait img{
+  width: 100%;
+}
+.about-text{
+  width: 45%;
+}
+.about-text h2{
+  text-align: center;
+}
+.about-text p{
+  margin-top: 6%;
+}
+/* image de fond */
+.ab-port-img{
+  height: 100vh;
+}
+.ab-port-img img{
+  width: auto;
+  display: flex;
+  height: 750px;
+  margin-left: auto;
+  margin-right: 0;
+  transform: translateY(-150px);
+}

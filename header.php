@@ -17,7 +17,7 @@
           <div class="bar3"></div>
         </div>
       <!--Images fond-->
-        <img src="images/header.jpg" alt="fond-header" class="header-bg">
+        <img src="images/header-bis.jpg" alt="fond-header" class="header-bg">
 
       <!--Logo-->
         <img src="images/logo-hover.png" id="logo-hover" alt="logo" class="main-logo-hover">

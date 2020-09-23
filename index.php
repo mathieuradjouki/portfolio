@@ -17,5 +17,10 @@
   <div class="ab-port-img">
     <img src="images/about-img-left.png" alt="skieur">
   </div>
+<!-- section projet -->
+  <section class="projet">
+    <h2>Mes Projets</h2>
+
+  </section>
 
 <?php include'footer.php'?>

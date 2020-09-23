@@ -186,9 +186,38 @@ header{
 .projet h2{
   text-align: center;
 }
-.prev-left{
+#carrousel{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+#prev-left{
+  width: 350px;
   height: 400px;
+  transform: translateX(20%);
+  z-index: -1;
 }
 .prev-left img{
-  height: 100%;
+  width: 100%;
+}
+#selected{
+  width: 400px;
+  height: 450px;
+  transform: translateY(-5%);
+}
+.selected img{
+  width: 400%;
+}
+#next-right{
+  width: 350px;
+  height: 400px;
+  transform: translateX(-20%);
+  z-index: -1;
+}
+.next-right img{
+  width: 100%;
+}
+.button{
+  display: flex;
+  justify-content: center;
 }

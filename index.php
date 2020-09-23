@@ -19,8 +19,17 @@
   </div>
 <!-- section projet -->
   <section class="projet">
-    <h2>Mes Projets</h2>
+    <div class="container">
+      <h2>Mes Projets</h2>
+      <div id="carrousel">
+        <div class="hide-left">
 
+        </div>
+        <div class="prev-left">
+          <img src="images/concession.png" alt="image du site concession">
+        </div>
+      </div>
+    </div>
   </section>
 
 <?php include'footer.php'?>

@@ -179,3 +179,16 @@ header{
   margin-right: 0;
   transform: translateY(-150px);
 }
+/* projet */
+.projet{
+  height: 100vh;
+}
+.projet h2{
+  text-align: center;
+}
+.prev-left{
+  height: 400px;
+}
+.prev-left img{
+  height: 100%;
+}

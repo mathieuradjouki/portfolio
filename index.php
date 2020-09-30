@@ -65,5 +65,8 @@
         </a>
       </div>
   </section>
+  <section class="parcours">
+
+  </section>
 
 <?php include'footer.php'?>

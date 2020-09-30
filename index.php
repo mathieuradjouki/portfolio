@@ -21,43 +21,49 @@
   <section class="projet">
     <div class="container">
       <h2>Mes Projets</h2>
-        <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/concession.png" alt="image du site concession">
-            </div>
-            <div class="carousel-item">
-              <img src="images/hiking.jpg" alt="image du site hiking">
-            </div>
-            <div class="carousel-item">
-            <img src="images/office.png" alt="image du site office du tourisme">
-            </div>
-          </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+      <!-- <div class="show-projets">
+        <img src="images/hiking.png" alt="capture du projet hiking" class="capture-projets">
+        <img src="images/concession.png" alt="capture du projet concession" class="capture-projets">
+        <img src="images/spaceDrive.png" alt="capture du projet space drive" class="capture-projets">
       </div> -->
-      <!-- <div id="carrousel">
-        <div id="prev-left">
-          <img src="images/concession.png" alt="image du site concession">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/hiking.png" class="d-block w-100" alt="capture du projet hiking">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>It's Time For Hiking</h5>
+              <p>Projet d'intégration à partir d'un template imposé</p>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="images/concession.png" class="d-block w-100" alt="capture du projet concession">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Site de concession auto</h5>
+              <p>Travail en groupe de refonte de site existant</p>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="images/spaceDrive.png" class="d-block w-100" alt="capture du projet space drive">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Space Drive</h5>
+              <p>Projet d'intégration de site dynamique à partir d'une maquette fournie</p>
+            </div> -->
+          </div>
         </div>
-        <div id="selected">
-          <img src="images/hiking.jpg" alt="image du site hiking">
-        </div>
-        <div id="next-right">
-          <img src="images/office.png" alt="image du site office du tourisme">
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-      <div class="button">
-      <button type="button" name="button" id="prev">prev</button>
-      <button type="button" name="button" id="next">next</button>
-    </div>
-    </div> -->
   </section>
 
 <?php include'footer.php'?>

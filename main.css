@@ -183,3 +183,12 @@ header{
     right: 35px;
   }
 }
+@media screen and (max-height: 990px){
+  .about{
+    display: block;
+    padding-top: 10%;
+  }
+  .container-about {display: block;}
+  .portrait {float: left;}
+  .about-text {width: auto;}
+}

@@ -39,4 +39,6 @@
             </div>
           </div>
         </div>
+        <!-- le code qui suit pour telecharger le CV-->
+        <!--<div class="item"><a href="ressources/CV_JulieBoulenger_DevWeb.pdf" download="CV Julie Boulenger" target="_blank">CV</a></div>-->
     </header>

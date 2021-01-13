@@ -1,0 +1,43 @@
+/* Gestion du logo */
+
+header{
+    .main-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-fill-mode:  forwards!important;
+        animation-iteration-count: 1;
+    }
+    .main-logo-hover{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        opacity: 0;
+    }
+    .main-logo-hover-open{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        animation: open-logo 2s;
+        animation-fill-mode:  forwards!important;
+    }
+    @keyframes open-logo {
+        from{
+        opacity: 0;
+        }
+        to{ 
+        opacity: 1;
+        }
+    }
+    @keyframes closed-logo {
+        from {
+            opacity: 1;
+        }
+        to { 
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,161 @@
+p {
+  font-size: 20px;
+}
+
+/*header*/
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("images/header-bis.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .header-bg {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Gestion du logo */
+header .main-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-fill-mode: forwards !important;
+  animation-iteration-count: 1;
+}
+header .main-logo-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  opacity: 0;
+}
+header .main-logo-hover-open {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  animation: open-logo 2s;
+  animation-fill-mode: forwards !important;
+}
+@keyframes open-logo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes closed-logo {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Burger menu */
+.open-menu {
+  position: absolute;
+  /* transform: translate(20px, -730px); */
+  margin: 2%;
+  /* Bouton d'ouverture et fermeture du menu*/
+}
+.open-menu .bar1, .open-menu .bar2, .open-menu .bar3 {
+  width: 35px;
+  height: 1px;
+  background-color: #E6E3E1;
+  margin: 6px 0;
+}
+
+.close-bar1 {
+  width: 35px;
+  height: 1px;
+  background-color: white;
+  margin: 6px 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.close-bar3 {
+  width: 35px;
+  height: 1px;
+  background-color: white;
+  margin: 6px 0;
+  -webkit-transform: rotate(45deg) translate(-9px, -6px);
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: black;
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  /* Position the content inside the overlay */
+}
+.overlay .overlay-content {
+  position: relative;
+  top: 25%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  margin-left: 10%;
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 0 0 3% 0;
+  text-decoration: none;
+  font-size: 45px;
+  color: #818181;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 2%;
+  font-size: 60px;
+}
+
+/*form*/
+.input-contact {
+  border: none;
+  border-bottom: solid 1.5px;
+  border-radius: 0;
+}
+
+.message {
+  height: 150px !important;
+}
+
+/*# sourceMappingURL=style.css.map */

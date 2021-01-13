@@ -1,6 +1,6 @@
 <?php include'header.php'
  ?>
-modification pour merge
+<h1>Site en construction</h1>
  <?php include'footer.php'
  ?>
  

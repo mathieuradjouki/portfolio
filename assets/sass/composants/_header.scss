@@ -1,15 +1,22 @@
+@import "../base/typo";
+
 /*header*/
 header{
-    width: 100%;
     height: 100vh;
-    position: relative;
-    background-image: url('images/header-bis.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    .header-bg{
-        height: 100vh;
-        width: 100%;
-        object-fit: cover;
+    nav{
+        width: 80%;
+        margin: auto;
+        ul{
+            font-family: 'alphawoodregular';
+            font-size: 2rem;
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            a{
+                color: #C9A581;;
+            }
+        }       
     }
 }
   

@@ -1,20 +1,65 @@
-p {
+body {
+  background-image: url("../images/body-background.png");
+  height: 100%;
+}
+body p {
   font-size: 20px;
 }
 
+@font-face {
+  font-family: "drifttypesolid";
+  src: url("../fonts/drifttype_solid-webfont.woff2") format("woff2"), url("../fonts/drifttype_solid-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "drifttyperegular";
+  src: url("../fonts/drifttype-webfont.woff2") format("woff2"), url("../fonts/drifttype-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alphawoodregular";
+  src: url("../fonts/alphawood-webfont.woff2") format("woff2"), url("../fonts/alphawood-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "drifttypesolid";
+  src: url("../fonts/drifttype_solid-webfont.woff2") format("woff2"), url("../fonts/drifttype_solid-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "drifttyperegular";
+  src: url("../fonts/drifttype-webfont.woff2") format("woff2"), url("../fonts/drifttype-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alphawoodregular";
+  src: url("../fonts/alphawood-webfont.woff2") format("woff2"), url("../fonts/alphawood-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /*header*/
 header {
-  width: 100%;
   height: 100vh;
-  position: relative;
-  background-image: url("images/header-bis.jpg");
-  background-size: cover;
-  background-attachment: fixed;
 }
-header .header-bg {
-  height: 100vh;
-  width: 100%;
-  object-fit: cover;
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav ul {
+  font-family: "alphawoodregular";
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul a {
+  color: #C9A581;
 }
 
 /* Gestion du logo */

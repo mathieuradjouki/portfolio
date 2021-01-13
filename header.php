@@ -15,7 +15,8 @@
           <li><a href="#">Accueil</a></li>
           <li><a href="#">Mes projets</a></li>
           <li><a href="#">Qui suis-je?</a></li>
-          <li><a href="#">Télecharger CV</a></li>
+          <li><a href="#">Telecharger CV</a></li>
         </ul>
       </nav>
     </header>
+    

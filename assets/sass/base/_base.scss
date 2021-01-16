@@ -1,7 +1,9 @@
 body{
-    background-image: url('../images/body-background.png');
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
     height: 100%;
-    p{
-        font-size: 20px;
+    h1{
+        font-family: 'drifttyperegular';
+        color: #DFD3C3;
     }
 }

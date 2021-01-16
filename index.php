@@ -1,6 +1,10 @@
 <?php include'header.php'
  ?>
-<h1>Site en construction</h1>
+    <div class="projects">
+        <div class="project-sign">
+            <img src="assets/images/sign.png" alt="sign project">
+        </div>
+    </div>
  <?php include'footer.php'
  ?>
  

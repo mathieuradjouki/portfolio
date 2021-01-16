@@ -1,9 +1,11 @@
 body {
-  background-image: url("../images/body-background.png");
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
   height: 100%;
 }
-body p {
-  font-size: 20px;
+body h1 {
+  font-family: "drifttyperegular";
+  color: #DFD3C3;
 }
 
 @font-face {
@@ -190,6 +192,12 @@ header .main-logo-hover-open {
   top: 20px;
   right: 2%;
   font-size: 60px;
+}
+
+/* index */
+.projects img {
+  width: 170px;
+  margin-left: 2%;
 }
 
 /*form*/

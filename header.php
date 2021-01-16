@@ -18,5 +18,14 @@
           <li><a href="#">Telecharger CV</a></li>
         </ul>
       </nav>
+      <div class="home">
+        <div class="section-sign">
+          <img src="assets/images/home-sign.png" alt="panneau accueil">
+        </div>       
+        <div class="title">
+          <h1><span class="headline">Je m'appelle Mathieu RADJOUKI</span><br>
+          Je suis Designer et developpeur Web, Web Mobile.</h1>
+        </div>
+      </div>
     </header>
     

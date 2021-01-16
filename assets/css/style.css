@@ -64,7 +64,7 @@ header nav ul {
   justify-content: space-around;
 }
 header nav ul a {
-  color: #C9A581;
+  color: #C3A686;
 }
 header .home {
   display: flex;
@@ -209,9 +209,31 @@ header .main-logo-hover-open {
 }
 
 /* index */
-.projects img {
-  width: 170px;
-  margin-left: 2%;
+.projects {
+  display: flex;
+}
+.projects .project-sign {
+  max-width: 15%;
+}
+.projects .project-sign img {
+  width: 100%;
+}
+.projects .row {
+  margin-right: none;
+  margin-left: none;
+}
+.projects .project-cards .col {
+  padding: 5%;
+}
+.projects .project-cards .col .card {
+  border: none;
+}
+
+.myself .self-sign {
+  max-width: 15%;
+}
+.myself .self-sign img {
+  width: 100%;
 }
 
 /*form*/

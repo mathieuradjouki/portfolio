@@ -1,8 +1,31 @@
 /* index */
 
 .projects{
-    img{
-        width: 170px;
-        margin-left: 2%;
+    display: flex;
+    .project-sign{
+        max-width: 15%;
+        img{
+            width: 100%;
+        }
+    }
+    .row{
+        margin-right: none;
+        margin-left: none;
+    }
+    .project-cards{
+        .col{
+            padding: 5%;
+            .card{
+                border: none;
+            }
+        }
+    }
+}
+.myself{
+    .self-sign{
+        max-width: 15%;
+        img{
+            width: 100%;
+        }
     }
 }

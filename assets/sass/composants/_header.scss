@@ -18,5 +18,16 @@ header{
             }
         }       
     }
+    .home{
+        display: flex;
+        align-items: center;
+        margin: 10% auto;
+        .section-sign{
+            max-width: 15%;
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
   

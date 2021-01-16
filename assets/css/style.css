@@ -7,6 +7,9 @@ body h1 {
   font-family: "drifttyperegular";
   color: #DFD3C3;
 }
+body h1 .headline {
+  margin-left: 10%;
+}
 
 @font-face {
   font-family: "drifttypesolid";
@@ -62,6 +65,17 @@ header nav ul {
 }
 header nav ul a {
   color: #C9A581;
+}
+header .home {
+  display: flex;
+  align-items: center;
+  margin: 10% auto;
+}
+header .home .section-sign {
+  max-width: 15%;
+}
+header .home .section-sign img {
+  width: 100%;
 }
 
 /* Gestion du logo */

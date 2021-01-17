@@ -36,7 +36,7 @@
                 <p>Je suis Mathieu, developpeur et designer web junior. Apres une belle premiere carriere, je me suis reconverti dans le web pour laisser libre court a ma passion du numerique. Ce site vous montre mon parcours.</p>
             </div>
             <div class="portrait">
-                <img src="assets/images/portrait.png" alt="myself in portrait">
+                <img src="assets/images/winter-portrait.png" alt="myself in portrait">
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
             <img src="assets/images/techno.png" alt="technologies sign">
         </div>
         <div class="techno-details">
-            <img src="assets/images/frame2.png" alt="technologies frame">
+            <img src="assets/images/techno-frame.png" alt="technologies frame">
         </div>
     </div>
  <?php include'footer.php'

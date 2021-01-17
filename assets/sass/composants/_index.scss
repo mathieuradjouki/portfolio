@@ -1,4 +1,5 @@
 /* index */
+@import "../utils/variables";
 
 .projects{
     display: flex;
@@ -8,9 +9,9 @@
             width: 100%;
         }
     }
-    .row{
-        margin-right: none;
-        margin-left: none;
+    .project-cards{
+        margin-right: 0!important;
+        margin-left: 0!important;
     }
     .project-cards{
         .col{
@@ -22,10 +23,70 @@
     }
 }
 .myself{
+    display: flex;
     .self-sign{
         max-width: 15%;
         img{
             width: 100%;
         }
     }
+    .presentation{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0!important;
+        margin-left: 0!important;
+        .text{
+            width: 45%;
+            display: flex;
+            align-items: center;
+            p{
+                font-family: 'drifttypesolid';
+                color: $darkbrown;
+            }
+        }
+        .portrait{
+            width: 45%;
+            img{
+                width: 100%;
+            }
+        }       
+    }
+}
+.parcours{
+    margin-right: 0!important;
+    margin-left: 0!important;
+    .parcours-sign{
+        margin-left: 25%;
+        width: 25%;
+        img{
+            width: 100%;
+        }
+    }
+    .dates{
+        width: 59%;
+        margin: 15% 5% 0 auto;
+        display: flex;
+        img{
+            width: 100%;
+        }
+    }
+}
+.technologies{
+    margin-right: 0!important;
+    margin-left: 0!important;
+    .techno-sign{
+        margin-top: 5%;
+        margin-left: 25%;
+        width: 25%;
+        img{
+            width: 100%;
+        }
+    }
+    .techno-details{
+        width: 65%;
+        margin: 5% 5% 0 auto;
+        img{
+            width: 100%;
+        }
+    }    
 }

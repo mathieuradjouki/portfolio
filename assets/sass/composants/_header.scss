@@ -1,4 +1,5 @@
 @import "../base/typo";
+@import "../utils/variables";
 
 /*header*/
 header{
@@ -8,13 +9,16 @@ header{
         margin: auto;
         ul{
             font-family: 'alphawoodregular';
-            font-size: 2rem;
+            font-size: 30px;
             text-decoration: none;
             list-style: none;
             display: flex;
             justify-content: space-around;
             a{
                 color: #C3A686;
+                &:hover{
+                    color: $darkbrown;
+                }
             }
         }       
     }

@@ -48,6 +48,14 @@
             <img src="assets/images/snowfloor.png" alt="floor">
         </div>
     </div>
+    <div class="technologies row">
+        <div class="techno-sign">
+            <img src="assets/images/techno.png" alt="technologies sign">
+        </div>
+        <div class="techno-details">
+            <img src="assets/images/frame2.png" alt="technologies frame">
+        </div>
+    </div>
  <?php include'footer.php'
  ?>
  

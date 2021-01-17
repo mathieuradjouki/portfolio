@@ -1,0 +1,23 @@
+/* footer */
+@import "../utils/variables";
+
+footer{
+    display: flex;
+    .contact-sign{
+        max-width: 15%;
+        img{
+            width: 100%;
+        }
+    }
+    h3{
+        font-family: 'drifttypesolid';
+        color: $darkbrown;
+        width: 80%;
+        margin: 2% 0 0 auto;
+        text-align: center;
+    }
+    .contact-form{
+        width: 65%;
+        margin: 0 2% 0 auto;
+    }
+}

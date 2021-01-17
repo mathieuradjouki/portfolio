@@ -1,9 +1,25 @@
  /*form*/
+ @import "../utils/variables";
+
+ label{
+  font-family: 'drifttypesolid';
+  color: $darkbrown;
+ }
  .input-contact{
     border: none;
-    border-bottom: solid 1.5px;
+    border-bottom: solid 2.5px;
+    border-color: $darkbrown;
     border-radius: 0;
   }
   .message{
     height: 150px !important;
+  }
+  #contact_send{
+    font-family: 'drifttypesolid';
+    color: $darkbrown;
+      &:hover{
+        background-color: $darkbrown;
+        font-family: 'drifttypesolid';
+        color: white;
+      }
   }

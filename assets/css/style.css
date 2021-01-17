@@ -5,7 +5,7 @@ body {
 }
 body h1 {
   font-family: "drifttyperegular";
-  color: #DFD3C3;
+  color: #C3A686;
 }
 body h1 .headline {
   margin-left: 10%;
@@ -57,7 +57,7 @@ header nav {
 }
 header nav ul {
   font-family: "alphawoodregular";
-  font-size: 2rem;
+  font-size: 30px;
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -65,6 +65,9 @@ header nav ul {
 }
 header nav ul a {
   color: #C3A686;
+}
+header nav ul a:hover {
+  color: #806858;
 }
 header .home {
   display: flex;

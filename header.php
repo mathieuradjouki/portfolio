@@ -22,7 +22,8 @@
       </nav>
       <div class="home" id="home">
         <div class="section-sign">
-          <img src="assets/images/home.png" alt="panneau accueil">
+          <img src="assets/images/home.png" alt="home sign" class="desktop-home-sign">
+          <img src="assets/images/home-mobile.png" alt="mobile home sign" class="mobile-home-sign">
         </div>       
         <div class="title">
           <h1><span class="headline">Je m'appelle Mathieu RADJOUKI</span><br>

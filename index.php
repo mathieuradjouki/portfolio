@@ -1,33 +1,33 @@
 <?php include'header.php'
  ?>
-    <div class="projects">
+    <div class="projects" id="projects">
         <div class="project-sign">
             <img src="assets/images/project-sign.png" alt="sign project">
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4 project-cards">
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/test.png" class="card-img-top" alt="mockup maquette hiking project">
+                    <img src="assets/images/mockup-hiking.png" class="card-img-top" alt="mockup maquette hiking project">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/group2.png" class="card-img-top" alt="mockup site les écarts de rémunérations">
+                    <img src="assets/images/mockup-wp.png" class="card-img-top" alt="mockup site les écarts de rémunérations">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/mockup-concession.jpg" class="card-img-top" alt="mockup site concession auto">
+                    <img src="assets/images/mockup-concession.png" class="card-img-top" alt="mockup site concession auto">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/mockup-off-tourisme.jpg" class="card-img-top" alt="maquette refonte de site office du tourisme">
+                    <img src="assets/images/mockup-office-tourisme.png" class="card-img-top" alt="maquette refonte de site office du tourisme">
                 </div>
             </div>
         </div>
     </div>
-    <div class="myself">
+    <div class="myself" id="myself">
         <div class="self-sign">
             <img src="assets/images/me-sign.png" alt="myself sign">
         </div>  

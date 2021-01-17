@@ -300,15 +300,53 @@ header .main-logo-hover-open {
   width: 100%;
 }
 
+/* footer */
+footer {
+  display: flex;
+}
+footer .contact-sign {
+  max-width: 15%;
+}
+footer .contact-sign img {
+  width: 100%;
+}
+footer h3 {
+  font-family: "drifttypesolid";
+  color: #806858;
+  width: 80%;
+  margin: 2% 0 0 auto;
+  text-align: center;
+}
+footer .contact-form {
+  width: 65%;
+  margin: 0 2% 0 auto;
+}
+
 /*form*/
+label {
+  font-family: "drifttypesolid";
+  color: #806858;
+}
+
 .input-contact {
   border: none;
-  border-bottom: solid 1.5px;
+  border-bottom: solid 2.5px;
+  border-color: #806858;
   border-radius: 0;
 }
 
 .message {
   height: 150px !important;
+}
+
+#contact_send {
+  font-family: "drifttypesolid";
+  color: #806858;
+}
+#contact_send:hover {
+  background-color: #806858;
+  font-family: "drifttypesolid";
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

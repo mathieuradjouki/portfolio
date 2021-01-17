@@ -17,12 +17,12 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/concession.jpg" class="card-img-top" alt="mockup site concession auto">
+                    <img src="assets/images/mockup-concession.jpg" class="card-img-top" alt="mockup site concession auto">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/off-tourisme-mockup.png" class="card-img-top" alt="maquette refonte de site office du tourisme">
+                    <img src="assets/images/mockup-off-tourisme.jpg" class="card-img-top" alt="maquette refonte de site office du tourisme">
                 </div>
             </div>
         </div>

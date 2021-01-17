@@ -41,13 +41,13 @@
         </div>
     </div>
     <div class="parcours row">
-            <div class="parcours-sign">
-                <img src="assets/images/parcours.png" alt="parcours sign">
-            </div>
-            <div class="dates">
-                <img src="assets/images/snowfloor.png" alt="floor">
-            </div>
+        <div class="parcours-sign">
+            <img src="assets/images/parcours.png" alt="parcours sign">
         </div>
+        <div class="dates">
+            <img src="assets/images/snowfloor.png" alt="floor">
+        </div>
+    </div>
  <?php include'footer.php'
  ?>
  

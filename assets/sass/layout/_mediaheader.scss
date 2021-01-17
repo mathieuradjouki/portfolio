@@ -1,0 +1,21 @@
+@import "../utils/variables";
+
+@media screen and (max-width: 960px){
+    .home{
+        display: block!important;
+        margin: 17% auto;
+        .section-sign{
+            max-width: 15%;
+            margin: auto;
+            .desktop-home-sign{
+                display: none;
+            }
+            .mobile-home-sign{
+                display: block!important;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

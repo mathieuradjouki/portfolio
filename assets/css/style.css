@@ -218,9 +218,9 @@ header .main-logo-hover-open {
 .projects .project-sign img {
   width: 100%;
 }
-.projects .row {
-  margin-right: none;
-  margin-left: none;
+.projects .project-cards {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 .projects .project-cards .col {
   padding: 5%;
@@ -229,10 +229,74 @@ header .main-logo-hover-open {
   border: none;
 }
 
+.myself {
+  display: flex;
+}
 .myself .self-sign {
   max-width: 15%;
 }
 .myself .self-sign img {
+  width: 100%;
+}
+.myself .presentation {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.myself .presentation .text {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.myself .presentation .text p {
+  font-family: "drifttypesolid";
+  color: #806858;
+}
+.myself .presentation .portrait {
+  width: 45%;
+}
+.myself .presentation .portrait img {
+  width: 100%;
+}
+
+.parcours {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.parcours .parcours-sign {
+  margin-left: 25%;
+  width: 25%;
+}
+.parcours .parcours-sign img {
+  width: 100%;
+}
+.parcours .dates {
+  width: 59%;
+  margin: 15% 5% 0 auto;
+  display: flex;
+}
+.parcours .dates img {
+  width: 100%;
+}
+
+.technologies {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.technologies .techno-sign {
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 25%;
+}
+.technologies .techno-sign img {
+  width: 100%;
+}
+.technologies .techno-details {
+  width: 65%;
+  margin: 5% 5% 0 auto;
+}
+.technologies .techno-details img {
   width: 100%;
 }
 

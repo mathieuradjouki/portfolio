@@ -33,7 +33,7 @@
         </div>  
         <div class="presentation row">
             <div class="text">
-                <p>Je suis Mathieu, developpeur et designer junior. Apres une belle premiere carriere, je me suis reconverti dans le web pour laisser libre court a ma passion du numerique. Ce site vous montre mon parcours.</p>
+                <p>Je suis Mathieu, developpeur et designer web junior. Apres une belle premiere carriere, je me suis reconverti dans le web pour laisser libre court a ma passion du numerique. Ce site vous montre mon parcours.</p>
             </div>
             <div class="portrait">
                 <img src="assets/images/portrait.png" alt="myself in portrait">

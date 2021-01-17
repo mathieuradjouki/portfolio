@@ -13,13 +13,14 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Mes projets</a></li>
-          <li><a href="#">Qui suis-je?</a></li>
-          <li><a href="#">Telecharger CV</a></li>
+          <li><a href="#home" onclick=lien()>Accueil</a></li>
+          <li><a href="#projects" onclick=lien()>Mes projets</a></li>
+          <li><a href="#myself" onclick=lien()>Qui suis-je?</a></li>
+          <li><a href="#contact" onclick=lien()>Contact</a></li>
+          <li><a href="assets/ressource/cv-mathieu.pdf" download onclick=lien()>Telecharger CV</a></li>
         </ul>
       </nav>
-      <div class="home">
+      <div class="home" id="home">
         <div class="section-sign">
           <img src="assets/images/home-sign.png" alt="panneau accueil">
         </div>       

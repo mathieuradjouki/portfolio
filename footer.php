@@ -1,40 +1,44 @@
 <?php include '_inc.php' ?>
-<section class="contact p-5" id="contact">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-      <h2 class="text-center">Pour plus d'information n'hésitez pas à me contacter</h2>
-      </div>
-      <div class="row w-100 m-0">
-
+<footer>
+  <div class="contact-sign">
+    <img src="assets/images/contact.png" alt="contact sign">
+  </div>
+  <section class="contact p-5" id="contact">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col-12">
-          <?php if(isset($_SESSION['errors'])): ?>
-            <div class="alert alert-danger">
-              <?= implode("<br>",$_SESSION['errors']); ?>
-            </div>
-            <?php endif; ?>
-            <?php if(isset($_SESSION['succes'])): ?>
-              <div class="alert alert-succes">
-                Votre email a été envoyé avec succés!
+        <h3 class="text-center">Pour plus d'informations n'hesitez pas a me contacter</h3>
+        </div>
+        <div class="row contact-form">
+          <div class="col-12">
+            <?php if(isset($_SESSION['errors'])): ?>
+              <div class="alert alert-danger">
+                <?= implode("<br>",$_SESSION['errors']); ?>
               </div>
-            <?php endif; ?>
-        <!--Form contact-->
-          <form class="contact" action="contact.php" name="contact" method="POST" onsubmit="return validForm()">
-              <?php $form = new Form(); ?>
-                  <?= $form-> text('name','Votre nom','Prenom Nom'); ?>
-                  <?= $form-> email('email','Votre email','monemail@email.com') ?>
-                  <?= $form-> tel('tel','Téléphone','XX XX XX XX XX') ?>
-                  <?= $form-> text('object','Objet','Objet du message') ?>
-                  <?= $form-> textarea('message','Votre message', 'Ecrivez ici') ?>
-                  <?= $form-> submit('Envoyez message') ?>
-                  <?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] : '';?>
-                  <?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] : '';?>
-          </form>
+              <?php endif; ?>
+              <?php if(isset($_SESSION['succes'])): ?>
+                <div class="alert alert-succes">
+                  Votre email a été envoyé avec succés!
+                </div>
+              <?php endif; ?>
+          <!--Form contact-->
+            <form class="contact" action="contact.php" name="contact" method="POST" onsubmit="return validForm()">
+                <?php $form = new Form(); ?>
+                    <?= $form-> text('name','Votre nom','Prenom Nom'); ?>
+                    <?= $form-> email('email','Votre email','monemail@email.com') ?>
+                    <?= $form-> tel('tel','Telephone', '0x xx xx xx xx') ?>
+                    <?= $form-> text('object','Objet','Objet du message') ?>
+                    <?= $form-> textarea('message','Votre message', 'Ecrivez ici') ?>
+                    <?= $form-> submit('Envoyez message') ?>
+                    <?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] : '';?>
+                    <?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] : '';?>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</footer>
 
 
 

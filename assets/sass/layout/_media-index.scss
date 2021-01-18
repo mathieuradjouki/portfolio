@@ -1,4 +1,4 @@
-@media screen and (max-width:960px){
+@media screen and (max-width: 960px){
     .projects{
         display: block;
         .project-sign{
@@ -20,22 +20,24 @@
             .self-sign{
                 margin: 2% auto;
                 max-width: 18%;
-            .mobile-myself-sign{
-                display: block!important;
+                .mobile-myself-sign{
+                    display: block!important;
+                    margin: auto;
+                }
+                .desktop-myself-sign{
+                    display: none;
+                }
+            }
+            .presentation{
+                .text{
+                    width: 90%;
+                    margin: auto;
+                }
+                .portrait{
                 margin: auto;
+                width: 75%;
+                }
             }
-            .desktop-myself-sign{
-                display: none;
-            }
-        }
-        .presentation{
-            .portrait{
-                display: flex;
-                flex-wrap: wrap;
-                height: fit-content;
-                align-self: center;
-            }
-        }
     }
     .parcours{
         display: block;
@@ -52,7 +54,7 @@
             margin: 2% auto;
         }
         .techno-details{
-            margin: auto;
+            margin: 2% auto;
             width: 90%;
         }
     }

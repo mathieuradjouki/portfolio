@@ -479,11 +479,13 @@ label {
   .myself .self-sign .desktop-myself-sign {
     display: none;
   }
+  .myself .presentation .text {
+    width: 90%;
+    margin: auto;
+  }
   .myself .presentation .portrait {
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-    align-self: center;
+    margin: auto;
+    width: 75%;
   }
 
   .parcours {
@@ -501,7 +503,7 @@ label {
     margin: 2% auto;
   }
   .technologies .techno-details {
-    margin: auto;
+    margin: 2% auto;
     width: 90%;
   }
 }

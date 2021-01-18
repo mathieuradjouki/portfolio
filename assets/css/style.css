@@ -520,5 +520,11 @@ label {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 960px) {
+  #contact_send {
+    color: white;
+    background-color: #806858;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -17,8 +17,8 @@
                 <?= implode("<br>",$_SESSION['errors']); ?>
               </div>
               <?php endif; ?>
-              <?php if(isset($_SESSION['succes'])): ?>
-                <div class="alert alert-succes">
+              <?php if(isset($_SESSION['success'])): ?>
+                <div class="alert alert-success">
                   Votre email a été envoyé avec succés!
                 </div>
               <?php endif; ?>
@@ -58,7 +58,6 @@
   </body>
 </html>
 
-<?php if($_SESSION['input'] = null){ 
-unset($_SESSION['input']);} ?>
-<?php unset($_SESSION['succes']); ?>
+<?php unset($_SESSION['input']); ?>
+<?php unset($_SESSION['success']); ?>
 <?php unset($_SESSION['errors']); ?>

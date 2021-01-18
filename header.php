@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php '_inc.php' ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">

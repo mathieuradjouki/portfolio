@@ -21,7 +21,7 @@ $errors = [];
    $_SESSION['input'] = $_POST;
    header('location: index.php#contact');
  }else{
-   $_SESSION['succes'] = '1';
+   $_SESSION['success'] = '1';
    $message = $_POST['message'];
    $headers = 'FROM: siteportfolio@codeur.online';
    echo $_POST['email'];

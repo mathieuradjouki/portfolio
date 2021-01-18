@@ -1,9 +1,9 @@
 <?php
   $serveur = "localhost"; $dbname = "cours"; $user = "root"; $pass = "root";
-  $name = $_POST["name"]
-  $mail = $_POST["mail"]
-  $object = $_POST["object"]
-  $message = ["message"]
+  $name = $_POST["name"];
+  $mail = $_POST["mail"];
+  $object = $_POST["object"];
+  $message = ["message"];
 
   $name = valid_donnees($_POST["name"]);
   $mail = valid_donnees($_POST["mail"]);

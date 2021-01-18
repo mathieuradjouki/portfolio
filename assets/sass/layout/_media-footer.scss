@@ -1,0 +1,21 @@
+@media screen and (max-width:960px){
+    .information{
+        display: block;
+        .contact-sign{
+            max-width: 22%;
+            margin: 6% auto;
+            img{
+                display: none;
+            }
+            .mobile-contact-sign{
+                display: block!important;
+            }
+            .desktop-contact-sign{
+                display: none!important;
+            }
+        }
+    }
+    .p-5{
+        padding: none!important;
+    }
+}

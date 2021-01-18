@@ -1,4 +1,13 @@
-.title{
-    margin: 8%;
-    text-align: center;
-}
+
+    @media screen and (max-width: 960px){
+        .title{
+            margin: 8%;
+            text-align: center;
+            h1{
+                font-size: large;
+            }
+            .headline{
+                margin-left: 0;
+            }
+        }
+    }

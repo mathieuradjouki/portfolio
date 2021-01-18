@@ -2,7 +2,7 @@
     .projects{
         display: block;
         .project-sign{
-            max-width: 15%;
+            max-width: 18%;
             margin: auto;
             img{
                 width: 100%;
@@ -13,6 +13,47 @@
         }
         .desktop-project-sign{
             display: none;
+        }
+    }
+    .myself{
+        display: block;
+            .self-sign{
+                margin: 2% auto;
+                max-width: 18%;
+            .mobile-myself-sign{
+                display: block!important;
+                margin: auto;
+            }
+            .desktop-myself-sign{
+                display: none;
+            }
+        }
+        .presentation{
+            .portrait{
+                display: flex;
+                flex-wrap: wrap;
+                height: fit-content;
+                align-self: center;
+            }
+        }
+    }
+    .parcours{
+        display: block;
+        .parcours-sign{
+            margin: auto;
+        }
+        .dates{
+            width: 90%;
+            margin: 2% auto;
+        }
+    }
+    .technologies{
+        .techno-sign{
+            margin: 2% auto;
+        }
+        .techno-details{
+            margin: auto;
+            width: 90%;
         }
     }
 }

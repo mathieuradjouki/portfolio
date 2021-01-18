@@ -12,16 +12,16 @@ function closeNav() {
 }
 
 // Logo header
-var logo = document.getElementById("logo-top")
-var logoHover = document.getElementById("logo-hover")
-function startAnimation(){
-  logo.style.animation = "closed-logo 1s";
-  logoHover.classList.toggle("main-logo-hover-open");
-}
+// var logo = document.getElementById("logo-top")
+// var logoHover = document.getElementById("logo-hover")
+// function startAnimation(){
+//   logo.style.animation = "closed-logo 1s";
+//   logoHover.classList.toggle("main-logo-hover-open");
+// }
 //Open the logo when the mouse on mouseover
-  logo.addEventListener("mouseover", startAnimation, {
-    once:true,
-  });
+  // logo.addEventListener("mouseover", startAnimation, {
+  //   once:true,
+  // });
   // if (startAnimation = true) {
   //   logo.addEventListener(function(){
   //     logo.style.display = "none";

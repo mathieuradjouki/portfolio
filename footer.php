@@ -1,13 +1,14 @@
 <?php include '_inc.php' ?>
-<footer>
+<div class="information">
   <div class="contact-sign">
-    <img src="assets/images/contact.png" alt="contact sign">
+    <img src="assets/images/contact.png" alt="contact sign" class="desktop-myself-sign">
+    <img src="assets/images/mobile-contact.png" alt="mobile contact sign" class="mobile-contact-sign">
   </div>
-  <section class="contact p-5" id="contact">
+  <section class="contact" id="contact">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-        <h3 class="text-center">Pour plus d'informations n'hesitez pas a me contacter</h3>
+        <h3 class="text-center">Contactez moi pour plus d'information</h3>
         </div>
         <div class="row contact-form">
           <div class="col-12">
@@ -38,8 +39,16 @@
       </div>
     </div>
   </section>
-</footer>
-
+</div>
+<div class="social-medias">
+  <a href="https://www.linkedin.com/in/mathieu-radjouki/"><img src="assets/images/linkedin.png" alt="icon linkedin"></a>
+  <a href="https://github.com/mathieuradjouki"><img src="assets/images/github.png" alt="icon github"></a>
+  <a href="https://twitter.com/home?lang=fr"><img src="assets/images/twitter.png" alt="icon twitter"></a>
+</div>
+<div class="footer">
+  <hr>
+  <p class="text-center">Tous droits reserves - 2021 | Mentions legales</p>
+</div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -48,6 +57,8 @@
     <script src="assets/JS/main.js"></script>
   </body>
 </html>
-<?php unset($_SESSION['input']); ?>
+
+<?php if($_SESSION['input'] = null){ 
+unset($_SESSION['input']);} ?>
 <?php unset($_SESSION['succes']); ?>
 <?php unset($_SESSION['errors']); ?>

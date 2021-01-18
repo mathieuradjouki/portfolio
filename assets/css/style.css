@@ -1,13 +1,17 @@
-body {
+html {
+  scroll-behavior: smooth;
+}
+html body {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
 }
-body h1 {
+html body h1 {
   font-family: "drifttyperegular";
   color: #C3A686;
 }
-body h1 .headline {
+html body h1 .headline {
   margin-left: 10%;
 }
 
@@ -49,7 +53,104 @@ body h1 .headline {
 }
 /*header*/
 header {
-  height: 100vh;
+  height: auto;
+  /* Burger menu */
+  /* Bouton d'ouverture et fermeture du menu*/
+  /* The Overlay (background) */
+  /* Position the content inside the overlay */
+  /* The navigation links inside the overlay */
+  /* When you mouse over the navigation links, change their color */
+  /* Position the close button (top right corner) */
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+}
+header .open-menu {
+  /* transform: translate(20px, -730px); */
+  margin: 2%;
+}
+header .bar1, header .bar2, header .bar3 {
+  width: 35px;
+  height: 1px;
+  margin: 9px 0;
+}
+header .bar1 img, header .bar2 img, header .bar3 img {
+  width: 100%;
+}
+header .close-bar1 {
+  width: 35px;
+  margin: 6px 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+header .close-bar1 img {
+  width: 100%;
+}
+header .close-bar3 {
+  width: 35px;
+  margin: 6px 0;
+  -webkit-transform: rotate(45deg) translate(-9px, -6px);
+  transform: rotate(45deg) translate(-59px, -79px);
+}
+header .close-bar3 img {
+  width: 100%;
+}
+header .overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: black;
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+header .overlay-content {
+  position: relative;
+  top: 25%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  margin-left: 10%;
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+header .overlay a {
+  padding: 0 0 3% 0;
+  text-decoration: none;
+  font-size: 45px;
+  color: #C3A686;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+  font-family: "alphawoodregular";
+}
+header .overlay a:hover, header .overlay a:focus {
+  color: #806858;
+}
+header .overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 2%;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  header .overlay a {
+    font-size: 20px;
+  }
+  header .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 header nav {
   width: 80%;
@@ -72,10 +173,14 @@ header nav ul a:hover {
 header .home {
   display: flex;
   align-items: center;
-  margin: 10% auto;
+  margin: 17% auto;
 }
 header .home .section-sign {
   max-width: 15%;
+  transform: translateX(-23px);
+}
+header .home .section-sign .mobile-home-sign {
+  display: none;
 }
 header .home .section-sign img {
   width: 100%;
@@ -122,95 +227,6 @@ header .main-logo-hover-open {
   }
 }
 
-/* Burger menu */
-.open-menu {
-  position: absolute;
-  /* transform: translate(20px, -730px); */
-  margin: 2%;
-  /* Bouton d'ouverture et fermeture du menu*/
-}
-.open-menu .bar1, .open-menu .bar2, .open-menu .bar3 {
-  width: 35px;
-  height: 1px;
-  background-color: #E6E3E1;
-  margin: 6px 0;
-}
-
-.close-bar1 {
-  width: 35px;
-  height: 1px;
-  background-color: white;
-  margin: 6px 0;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.close-bar3 {
-  width: 35px;
-  height: 1px;
-  background-color: white;
-  margin: 6px 0;
-  -webkit-transform: rotate(45deg) translate(-9px, -6px);
-  transform: rotate(45deg) translate(-5px, -5px);
-}
-
-/* The Overlay (background) */
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
-  height: 100%;
-  width: 0;
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: black;
-  /* Black fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/opacity */
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  /* Position the content inside the overlay */
-}
-.overlay .overlay-content {
-  position: relative;
-  top: 25%;
-  /* 25% from the top */
-  width: 100%;
-  /* 100% width */
-  margin-left: 10%;
-  margin-top: 30px;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlay a {
-  padding: 0 0 3% 0;
-  text-decoration: none;
-  font-size: 45px;
-  color: #818181;
-  display: block;
-  /* Display block instead of inline */
-  transition: 0.3s;
-  /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 2%;
-  font-size: 60px;
-}
-
 /* index */
 .projects {
   display: flex;
@@ -220,6 +236,9 @@ header .main-logo-hover-open {
 }
 .projects .project-sign img {
   width: 100%;
+}
+.projects .mobile-project-sign {
+  display: none;
 }
 .projects .project-cards {
   margin-right: 0 !important;
@@ -234,6 +253,9 @@ header .main-logo-hover-open {
 
 .myself {
   display: flex;
+}
+.myself .mobile-myself-sign {
+  display: none;
 }
 .myself .self-sign {
   max-width: 15%;
@@ -257,7 +279,7 @@ header .main-logo-hover-open {
   color: #806858;
 }
 .myself .presentation .portrait {
-  width: 45%;
+  width: 30%;
 }
 .myself .presentation .portrait img {
   width: 100%;
@@ -268,15 +290,15 @@ header .main-logo-hover-open {
   margin-left: 0 !important;
 }
 .parcours .parcours-sign {
-  margin-left: 25%;
-  width: 25%;
+  margin: 0 13% 0 auto;
+  width: 20%;
 }
 .parcours .parcours-sign img {
   width: 100%;
 }
 .parcours .dates {
   width: 59%;
-  margin: 15% 5% 0 auto;
+  margin: 5% auto 0 28%;
   display: flex;
 }
 .parcours .dates img {
@@ -288,41 +310,67 @@ header .main-logo-hover-open {
   margin-left: 0 !important;
 }
 .technologies .techno-sign {
-  margin-top: 5%;
-  margin-left: 25%;
-  width: 25%;
+  margin: 5% 5% 0 68%;
+  width: 20%;
 }
 .technologies .techno-sign img {
   width: 100%;
 }
 .technologies .techno-details {
-  width: 65%;
-  margin: 5% 5% 0 auto;
+  width: 50%;
+  margin: 5% 15% 0 auto;
 }
 .technologies .techno-details img {
   width: 100%;
 }
 
 /* footer */
-footer {
+.information {
   display: flex;
 }
-footer .contact-sign {
+.information .contact-sign {
   max-width: 15%;
 }
-footer .contact-sign img {
+.information .contact-sign .mobile-contact-sign {
+  display: none;
+}
+.information .contact-sign img {
   width: 100%;
 }
-footer h3 {
+.information h3 {
   font-family: "drifttypesolid";
   color: #806858;
-  width: 80%;
-  margin: 2% 0 0 auto;
+  margin: 2% 0;
   text-align: center;
 }
-footer .contact-form {
-  width: 65%;
-  margin: 0 2% 0 auto;
+.information .contact-form {
+  width: 80%;
+  margin: 2% auto;
+}
+.information .contact {
+  margin: 2% auto;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+}
+.social-medias a {
+  margin: 2%;
+}
+.social-medias a img {
+  width: auto;
+  max-height: 50px;
+}
+
+.footer hr {
+  border: solid 1.5px;
+  background-color: #806858;
+  border-color: #806858;
+}
+.footer p {
+  color: #806858;
+  font-family: "drifttypesolid";
 }
 
 /*form*/
@@ -350,6 +398,124 @@ label {
   background-color: #806858;
   font-family: "drifttypesolid";
   color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .information {
+    display: block;
+  }
+  .information .contact-sign {
+    max-width: 22%;
+    margin: 6% auto;
+  }
+  .information .contact-sign img {
+    display: none;
+  }
+  .information .contact-sign .mobile-contact-sign {
+    display: block !important;
+  }
+  .information .contact-sign .desktop-contact-sign {
+    display: none !important;
+  }
+
+  .p-5 {
+    padding: none !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  nav {
+    width: 100% !important;
+    margin: auto;
+  }
+
+  .home {
+    display: block !important;
+    margin: 17% auto;
+  }
+  .home .section-sign {
+    max-width: 15%;
+    margin: auto;
+    transform: translateX(0) !important;
+  }
+  .home .section-sign .desktop-home-sign {
+    display: none;
+  }
+  .home .section-sign .mobile-home-sign {
+    display: block !important;
+  }
+  .home .section-sign img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .projects {
+    display: block;
+  }
+  .projects .project-sign {
+    max-width: 18%;
+    margin: auto;
+  }
+  .projects .project-sign img {
+    width: 100%;
+  }
+  .projects .mobile-project-sign {
+    display: block !important;
+  }
+  .projects .desktop-project-sign {
+    display: none;
+  }
+
+  .myself {
+    display: block;
+  }
+  .myself .self-sign {
+    margin: 2% auto;
+    max-width: 18%;
+  }
+  .myself .self-sign .mobile-myself-sign {
+    display: block !important;
+    margin: auto;
+  }
+  .myself .self-sign .desktop-myself-sign {
+    display: none;
+  }
+  .myself .presentation .portrait {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    align-self: center;
+  }
+
+  .parcours {
+    display: block;
+  }
+  .parcours .parcours-sign {
+    margin: auto;
+  }
+  .parcours .dates {
+    width: 90%;
+    margin: 2% auto;
+  }
+
+  .technologies .techno-sign {
+    margin: 2% auto;
+  }
+  .technologies .techno-details {
+    margin: auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .title {
+    margin: 8%;
+    text-align: center;
+  }
+  .title h1 {
+    font-size: large;
+  }
+  .title .headline {
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

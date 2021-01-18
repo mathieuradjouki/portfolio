@@ -9,6 +9,9 @@
             width: 100%;
         }
     }
+    .mobile-project-sign{
+        display: none;
+    }
     .project-cards{
         margin-right: 0!important;
         margin-left: 0!important;
@@ -24,6 +27,9 @@
 }
 .myself{
     display: flex;
+    .mobile-myself-sign{
+        display: none;
+    }
     .self-sign{
         max-width: 15%;
         img{
@@ -45,7 +51,7 @@
             }
         }
         .portrait{
-            width: 45%;
+            width: 30%;
             img{
                 width: 100%;
             }
@@ -56,15 +62,15 @@
     margin-right: 0!important;
     margin-left: 0!important;
     .parcours-sign{
-        margin-left: 25%;
-        width: 25%;
+        margin: 0 13% 0 auto;
+        width: 20%;
         img{
             width: 100%;
         }
     }
     .dates{
         width: 59%;
-        margin: 15% 5% 0 auto;
+        margin: 5% auto 0 28%;
         display: flex;
         img{
             width: 100%;
@@ -75,16 +81,15 @@
     margin-right: 0!important;
     margin-left: 0!important;
     .techno-sign{
-        margin-top: 5%;
-        margin-left: 25%;
-        width: 25%;
+       margin: 5% 5% 0 68%;
+        width: 20%;
         img{
             width: 100%;
         }
     }
     .techno-details{
-        width: 65%;
-        margin: 5% 5% 0 auto;
+        width: 50%;
+        margin: 5% 15% 0 auto;
         img{
             width: 100%;
         }

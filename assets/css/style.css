@@ -497,6 +497,7 @@ label {
   .parcours .dates {
     width: 90%;
     margin: 2% auto;
+    object-fit: contain;
   }
 
   .technologies .techno-sign {

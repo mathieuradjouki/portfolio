@@ -19,7 +19,7 @@
               <?php endif; ?>
               <?php if(isset($_SESSION['success'])): ?>
                 <div class="alert alert-success">
-                  Votre email a été envoyé avec succés!
+                  Votre email a été envoyé avec succéss!
                 </div>
               <?php endif; ?>
           <!--Form contact-->

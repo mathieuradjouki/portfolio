@@ -392,6 +392,7 @@ label {
 
 #contact_send {
   font-family: "drifttypesolid";
+  border-color: #806858;
   color: #806858;
 }
 #contact_send:hover {

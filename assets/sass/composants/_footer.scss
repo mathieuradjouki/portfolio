@@ -46,5 +46,11 @@
     p{
         color: $darkbrown;
         font-family: 'drifttypesolid';
+        a{
+            color: $darkbrown;
+            &:hover{
+                color: #C3A686;
+            }
+        }
     }
 }

@@ -372,6 +372,12 @@ header .main-logo-hover-open {
   color: #806858;
   font-family: "drifttypesolid";
 }
+.footer p a {
+  color: #806858;
+}
+.footer p a:hover {
+  color: #C3A686;
+}
 
 /*form*/
 label {

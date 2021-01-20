@@ -23,7 +23,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/images/mockup-office-tourisme.png" class="card-img-top" alt="maquette refonte de site office du tourisme">
+                    <a href="assets/ressource/page-detail-chenal-hotel.jpeg" target="_blank" rel="noopener"><img src="assets/images/mockup-office-tourisme.png" class="card-img-top" alt="maquette refonte de site office du tourisme"></a>
                 </div>
             </div>
         </div>

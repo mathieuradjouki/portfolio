@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name="description" content="Ceci est le portfolio Web design et Développement Web, Web Mobile de Mathieu RADKJOUKI. N'hésitez pas à me contacter à l'aide du formulaire ou des reseau sociaux pour en savoir plus">
+     <meta name="description" content="Ceci est le portfolio Web design et Développement Web, Web Mobile de Mathieu RADJOUKI. N'hésitez pas à me contacter à l'aide du formulaire ou des reseau sociaux pour en savoir plus">
      <link rel="shortcut icon" type="image/png" href="assets/images/logo-hover.png"/>
      <title>Portfolio Web Designer, Web developpeur Mathieu RADJOUKI</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">

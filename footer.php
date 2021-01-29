@@ -12,11 +12,11 @@
         </div>
         <div class="row contact-form">
           <div class="col-12">
-            <?php if(isset($_SESSION['errors'])): ?>
+            <?php if(array_key_exists('errors', $_SESSION)): ?>
               <div class="alert alert-danger">
                 <?= implode("<br>",$_SESSION['errors']); ?>
               </div>
-              <?php endif; ?>
+              <?php unset($_SESSION['errors']); endif; ?>
               <?php if(isset($_SESSION['success'])): ?>
                 <div class="alert alert-success">
                   Votre email a été envoyé avec succéss!
@@ -47,7 +47,7 @@
 </div>
 <div class="footer">
   <hr>
-  <p class="text-center">Tous droits reserves - 2021 | <a href="mentions-legale.php" target="_blank" rel="noopener">Mentions legales</a></p>
+  <p class="text-center">Tous droits reserves - 2021 | <a href="mentions-legale.php" target="_blank" rel="noopener">Mentions légales</a></p>
 </div>
 
 
@@ -58,6 +58,8 @@
   </body>
 </html>
 
-<?php unset($_SESSION['input']); ?>
-<?php unset($_SESSION['success']); ?>
-<?php unset($_SESSION['errors']); ?>
+<?php 
+  unset($_SESSION['input']);
+  unset($_SESSION['success']);
+  unset($_SESSION['errors']); 
+?>

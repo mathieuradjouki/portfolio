@@ -23,6 +23,6 @@ $errors = [];
  }else{
    $_SESSION['success'] = 1;
    $headers = 'FROM: ' . $_POST['email'];
-   mail('m.radjouki@codeur.online', 'formulaire de contact ' . $_POST['name'], $_POST['message'], $headers);
-   header('location: index.php/#contact');
+   mail('m.radjouki@codeur.online', 'formulaire de contact' . '' . $_POST['name'], $_POST['message'], $headers);
+   header('location: #contact');
  }

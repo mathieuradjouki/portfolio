@@ -47,7 +47,7 @@
 </div>
 <div class="footer">
   <hr>
-  <p class="text-center">Tous droits reserves - 2021 | <a href="mentions-legale.php" target="_blank" rel="noopener">Mentions légales</a></p>
+  <p class="text-center">Tous droits reserves - 2021 | <a href="mentions-legale.php" target="_blank" rel="noopener">Mentions legales</a></p>
 </div>
 
 

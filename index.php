@@ -37,7 +37,7 @@
                 <div class="card">
                     <a href="assets/ressource/page-detail-chenal-hotel.jpeg" target="_blank" rel="noopener"><img src="assets/images/mockup-office-tourisme.png" class="card-img-top" alt="maquette refonte de site office du tourisme">
                     <div class="card-overlay">
-                        <div class="card-overlay-text">Visiter le site!</div>
+                        <div class="card-overlay-text">Voir la maquette</div>
                     </div>
                 </a>
                 </div>
@@ -74,6 +74,5 @@
             <img src="assets/images/tec-details.jpg" alt="technologies frame">
         </div>
     </div>
- <?php include'footer.php'
- ?>
+ <?php include'footer.php' ?>
  

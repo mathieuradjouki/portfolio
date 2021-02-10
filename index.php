@@ -1,5 +1,4 @@
-<?php include'header.php'
- ?>
+<?php include'header.php' ?>
     <div class="projects" id="projects">
         <div class="project-sign">
             <img src="assets/images/project-sign.png" alt="sign project" class="desktop-project-sign">

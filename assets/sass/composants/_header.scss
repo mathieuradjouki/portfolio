@@ -9,6 +9,7 @@ header{
     // position: absolute;
     /* transform: translate(20px, -730px); */
     margin: 2%;
+    display: none;
   }
   /* Bouton d'ouverture et fermeture du menu*/
   .bar1, .bar2, .bar3{
@@ -32,32 +33,31 @@ header{
     margin: 6px 0;
      -webkit-transform: rotate(45deg) translate(-9px, -6px);
     transform: rotate(45deg) translate(-59px, -79px);
-    img{
-        width: 100%;
-    }
+      img{
+          width: 100%;
+      }
     }
     /* The Overlay (background) */
     .overlay {
-      /* Height & width depends on how you want to reveal the overlay (see JS below) */
       height: 100%;
       width: 0;
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
+      position: fixed;
+      z-index: 1;
       left: 0;
       top: 0;
-      background-color: rgb(0,0,0); /* Black fallback color */
-      background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-      overflow-x: hidden; /* Disable horizontal scroll */
-      transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
     }
   
     /* Position the content inside the overlay */
     .overlay-content {
       position: relative;
-      top: 25%; /* 25% from the top */
-      width: 100%; /* 100% width */
+      top: 25%;
+      width: 100%;
       margin-left: 10%;
-      margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+      margin-top: 30px;
     }
   
     /* The navigation links inside the overlay */
@@ -66,8 +66,8 @@ header{
       text-decoration: none;
       font-size: 35px;
       color:#C3A686;;
-      display: block; /* Display block instead of inline */
-      transition: 0.3s; /* Transition effects on hover (color) */
+      display: block;
+      transition: 0.3s;
       font-family: 'alphawoodregular';
     }
   
@@ -84,15 +84,6 @@ header{
       font-size: 60px;
     }
   
-    /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-    @media screen and (max-height: 450px) {
-      .overlay a {font-size: 20px}
-      .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-      }
-    }
     nav{
         width: 80%;
         margin: auto;

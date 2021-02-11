@@ -61,11 +61,11 @@ header {
   /* The navigation links inside the overlay */
   /* When you mouse over the navigation links, change their color */
   /* Position the close button (top right corner) */
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 }
 header .open-menu {
   /* transform: translate(20px, -730px); */
   margin: 2%;
+  display: none;
 }
 header .bar1, header .bar2, header .bar3 {
   width: 35px;
@@ -94,33 +94,23 @@ header .close-bar3 img {
   width: 100%;
 }
 header .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   left: 0;
   top: 0;
   background-color: black;
-  /* Black fallback color */
   background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/opacity */
   overflow-x: hidden;
-  /* Disable horizontal scroll */
   transition: 0.5s;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 header .overlay-content {
   position: relative;
   top: 25%;
-  /* 25% from the top */
   width: 100%;
-  /* 100% width */
   margin-left: 10%;
   margin-top: 30px;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 header .overlay a {
   padding: 0 0 3% 0;
@@ -128,9 +118,7 @@ header .overlay a {
   font-size: 35px;
   color: #C3A686;
   display: block;
-  /* Display block instead of inline */
   transition: 0.3s;
-  /* Transition effects on hover (color) */
   font-family: "alphawoodregular";
 }
 header .overlay a:hover, header .overlay a:focus {
@@ -141,16 +129,6 @@ header .overlay .closebtn {
   top: 20px;
   right: 2%;
   font-size: 60px;
-}
-@media screen and (max-height: 450px) {
-  header .overlay a {
-    font-size: 20px;
-  }
-  header .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
 }
 header nav {
   width: 80%;
@@ -456,28 +434,42 @@ label {
     padding: none !important;
   }
 }
-@media screen and (max-width: 960px) {
-  nav {
-    width: 100% !important;
-    margin: auto;
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
   }
 
-  .home {
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+@media screen and (max-width: 960px) {
+  header .open-menu {
+    display: block;
+  }
+  header nav {
+    width: 100% !important;
+    margin: auto;
+    display: none;
+  }
+  header .home {
     display: block !important;
     margin: 17% auto;
   }
-  .home .section-sign {
+  header .home .section-sign {
     max-width: 15%;
     margin: auto;
     transform: translateX(0) !important;
   }
-  .home .section-sign .desktop-home-sign {
+  header .home .section-sign .desktop-home-sign {
     display: none;
   }
-  .home .section-sign .mobile-home-sign {
+  header .home .section-sign .mobile-home-sign {
     display: block !important;
   }
-  .home .section-sign img {
+  header .home .section-sign img {
     width: 100%;
   }
 }

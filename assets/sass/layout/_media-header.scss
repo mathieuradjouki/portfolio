@@ -1,0 +1,41 @@
+@import "../utils/variables";
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+@media screen and (max-width: 960px){
+    header{
+        .open-menu{
+            display: block;
+        }
+        nav{
+            width: 100%!important;
+            margin: auto;
+            display: none;
+        }
+        .home{
+            display: block!important;
+            margin: 17% auto;
+            .section-sign{
+                max-width: 15%;
+                margin: auto;
+                transform: translateX(0)!important;
+                .desktop-home-sign{
+                    display: none;
+                }
+                .mobile-home-sign{
+                    display: block!important;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

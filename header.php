@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-      <!-- <nav>
+      <nav>
         <ul>
           <li><a href="#home" onclick=lien()>Accueil</a></li>
           <li><a href="#projects" onclick=lien()>Mes projets</a></li>
@@ -47,7 +47,7 @@
           <li><a href="#contact" onclick=lien()>Contact</a></li>
           <li><a href="assets/ressource/cv-mathieu.pdf" download onclick=lien()>Telecharger CV</a></li>
         </ul>
-      </nav> -->
+      </nav>
       <div class="home" id="home">
         <div class="section-sign">
           <img src="assets/images/home.png" alt="home sign" class="desktop-home-sign">

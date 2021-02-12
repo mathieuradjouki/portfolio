@@ -14,6 +14,12 @@ html body h1 {
 html body h1 .headline {
   margin-left: 10%;
 }
+html body h3 {
+  font-family: "drifttypesolid";
+  color: #806858;
+  margin: 2% 0;
+  text-align: center;
+}
 
 @font-face {
   font-family: "drifttypesolid";
@@ -342,12 +348,6 @@ header .main-logo-hover-open {
 .information .contact-sign img {
   width: 100%;
 }
-.information h3 {
-  font-family: "drifttypesolid";
-  color: #806858;
-  margin: 2% 0;
-  text-align: center;
-}
 .information .contact-form {
   width: 80%;
   margin: 2% auto;
@@ -382,6 +382,36 @@ header .main-logo-hover-open {
 }
 .footer p a:hover {
   color: #C3A686;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+html body h1 {
+  font-family: "drifttyperegular";
+  color: #C3A686;
+}
+html body h1 .headline {
+  margin-left: 10%;
+}
+html body h3 {
+  font-family: "drifttypesolid";
+  color: #806858;
+  margin: 2% 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: "drifttypesolid";
+  color: #806858;
+  margin: 2% 0;
+  text-align: center;
 }
 
 /*form*/

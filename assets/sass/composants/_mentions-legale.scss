@@ -1,1 +1,9 @@
+@import "../base/base";
 @import "../utils/variables";
+
+    h3{
+        font-family: 'drifttypesolid';
+        color: $darkbrown;
+        margin: 2% 0;
+        text-align: center;
+    }

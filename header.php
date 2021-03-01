@@ -12,7 +12,7 @@
      <title>Portfolio Web Designer, Web développeur Mathieu RADJOUKI</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link rel="stylesheet" href="assets/css/style.css">
-     <meta property="og:title" content="Web designer et Développeur Web">
+     <meta property="og:title" content="Web designer et Développeur Web Mathieu RADJOUKI">
      <meta property="og:type" content="website">
      <meta property="og:url" content="http://mathieu-radjouki.fr/portfolio/">
      <meta property="og:image" content="">
@@ -24,8 +24,8 @@
       <?php include 'menu.php' ?>
       <div class="home" id="home">
         <div class="section-sign">
-          <img src="assets/images/home.png" alt="home sign" class="desktop-home-sign">
-          <img src="assets/images/home-mobile.png" alt="mobile home sign" class="mobile-home-sign">
+          <img src="assets/images/home.png" alt="Image du panneau accueil" class="desktop-home-sign">
+          <img src="assets/images/home-mobile.png" alt="Image du panneau accueil mobile" class="mobile-home-sign">
         </div>       
         <div class="title">
           <h1><span class="headline">Je m'appelle Mathieu RADJOUKI</span><br>

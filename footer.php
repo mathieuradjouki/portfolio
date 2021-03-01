@@ -1,8 +1,8 @@
 <?php include '_inc.php' ?>
 <div class="information">
   <div class="contact-sign">
-    <img src="assets/images/contact.png" alt="contact sign" class="desktop-myself-sign">
-    <img src="assets/images/mobile-contact.png" alt="mobile contact sign" class="mobile-contact-sign">
+    <img src="assets/images/contact.png" alt="Image du panneau contact" class="desktop-myself-sign">
+    <img src="assets/images/mobile-contact.png" alt="Image du panneau contact mobile" class="mobile-contact-sign">
   </div>
   <section class="contact" id="contact">
     <div class="container-fluid">
@@ -41,9 +41,9 @@
   </section>
 </div>
 <div class="social-medias">
-  <a href="https://www.linkedin.com/in/mathieu-radjouki/"><img src="assets/images/linkedin.png" alt="icon linkedin"></a>
-  <a href="https://github.com/mathieuradjouki"><img src="assets/images/github.png" alt="icon github"></a>
-  <a href="https://twitter.com/home?lang=fr"><img src="assets/images/twitter.png" alt="icon twitter"></a>
+  <a href="https://www.linkedin.com/in/mathieu-radjouki/"><img src="assets/images/linkedin.png" alt="icône linkedin de Mathieu RADJOUKI"></a>
+  <a href="https://github.com/mathieuradjouki"><img src="assets/images/github.png" alt="icône github de Mathieu RADJOUKI"></a>
+  <a href="https://twitter.com/home?lang=fr"><img src="assets/images/twitter.png" alt="icône twitter de Mathieu RADJOUKI"></a>
 </div>
 <div class="footer">
   <hr>

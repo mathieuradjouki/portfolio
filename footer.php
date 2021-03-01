@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-        <h3 class="text-center">Contactez moi pour plus d'information</h3>
+        <h2 class="text-center">Contactez moi pour plus d'information</h2>
         </div>
         <div class="row contact-form">
           <div class="col-12">

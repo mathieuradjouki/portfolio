@@ -14,7 +14,7 @@ html body h1 {
 html body h1 .headline {
   margin-left: 10%;
 }
-html body h3 {
+html body h2 {
   font-family: "drifttypesolid";
   color: #806858;
   margin: 2% 0;
@@ -400,14 +400,14 @@ html body h1 {
 html body h1 .headline {
   margin-left: 10%;
 }
-html body h3 {
+html body h2 {
   font-family: "drifttypesolid";
   color: #806858;
   margin: 2% 0;
   text-align: center;
 }
 
-h3 {
+h2 {
   font-family: "drifttypesolid";
   color: #806858;
   margin: 2% 0;

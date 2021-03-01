@@ -1,13 +1,13 @@
 <?php include'header.php' ?>
     <div class="projects" id="projects">
         <div class="project-sign">
-            <img src="assets/images/project-sign.png" alt="sign project" class="desktop-project-sign">
-            <img src="assets/images/mobile-project-sign.png" alt="mobile project sign" class="mobile-project-sign">
+            <img src="assets/images/project-sign.png" alt="Image du panneau projets" class="desktop-project-sign">
+            <img src="assets/images/mobile-project-sign.png" alt="Image du panneau projets pour mobile" class="mobile-project-sign">
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4 project-cards">
             <div class="col">
                 <div class="card">
-                    <a href="https://mathieur.promo-42.codeur.online/hikingproject/" target="_blank" rel="noopener"><img src="assets/images/mockup-hiking.png" class="card-img-top" alt="mockup maquette hiking project">
+                    <a href="https://mathieur.promo-42.codeur.online/hikingproject/" target="_blank" rel="noopener"><img src="assets/images/mockup-hiking.png" class="card-img-top" alt="mockup de la maquette hiking project">
                     <div class="card-overlay">
                         <div class="card-overlay-text">Visiter le site!</div>
                     </div>
@@ -17,7 +17,7 @@
             <div class="col">
                 <div class="card">
                     <a href="https://laurineh.promo-42.codeur.online/les-ecarts-de-remuneration/" target="_blank" rel="noopener">
-                    <img src="assets/images/mockup-wp.png" class="card-img-top" alt="mockup site les écarts de rémunérations">
+                    <img src="assets/images/mockup-wp.png" class="card-img-top" alt="mockup du site les écarts de rémunérations">
                     <div class="card-overlay">
                         <div class="card-overlay-text">Visiter le site!</div>
                     </div>
@@ -26,7 +26,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <a href="https://adelinel.promo-42.codeur.online/concession/" target="_blank" rel="noopener"><img src="assets/images/mockup-concession.png" class="card-img-top" alt="mockup site concession auto">
+                    <a href="https://adelinel.promo-42.codeur.online/concession/" target="_blank" rel="noopener"><img src="assets/images/mockup-concession.png" class="card-img-top" alt="mockup du site concession auto">
                     <div class="card-overlay">
                         <div class="card-overlay-text">Visiter le site!</div>
                     </div>
@@ -46,32 +46,32 @@
     </div>
     <div class="myself" id="myself">
         <div class="self-sign">
-            <img src="assets/images/me-sign.png" alt="myself sign" class="desktop-myself-sign">
-            <img src="assets/images/mobile-me-sign.png" alt="mobile myself sign" class="mobile-myself-sign">
+            <img src="assets/images/me-sign.png" alt="Image du panneau Qui suis-je?" class="desktop-myself-sign">
+            <img src="assets/images/mobile-me-sign.png" alt="Image du panneau Qui suis-je? version mobile" class="mobile-myself-sign">
         </div>  
         <div class="presentation row">
             <div class="portrait">
-                <img src="assets/images/winter-portrait.png" alt="myself in portrait">
+                <img src="assets/images/winter-portrait.png" alt="Portrait en illustration de Mathieu RADJOUKI">
             </div>
             <div class="text">
-                <p>Je suis Mathieu, developpeur et designer web junior. Apres une belle premiere carriere, je me suis reconverti dans le web pour laisser libre court a ma passion du numerique. Ce site vous montre mon parcours.</p>
+                <p>Je suis Mathieu RADJOUKI, developpeur et designer web junior. Apres une belle premiere carriere, je me suis reconverti dans le web pour laisser libre court a ma passion du numerique. Ce site vous montre mon parcours.</p>
             </div>
         </div>
     </div>
     <div class="parcours row">
         <div class="parcours-sign">
-            <img src="assets/images/parcours.png" alt="parcours sign">
+            <img src="assets/images/parcours.png" alt="Image du panneau parcours">
         </div>
         <div class="dates">
-            <img src="assets/images/date-cv.png" alt="floor">
+            <img src="assets/images/date-cv.png" alt="Illustration du parcours professionnel et de formation">
         </div>
     </div>
     <div class="technologies row">
         <div class="techno-sign">
-            <img src="assets/images/techno.png" alt="technologies sign">
+            <img src="assets/images/techno.png" alt="Image du panneau technologie">
         </div>
         <div class="techno-details">
-            <img src="assets/images/tec-details.jpg" alt="technologies frame">
+            <img src="assets/images/tec-details.jpg" alt="tableau des technologies utilisées par Mathieu RADJOUKI">
         </div>
     </div>
  <?php include'footer.php' ?>

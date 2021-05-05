@@ -20,7 +20,7 @@
               <a href="#projects" onclick=lien()>Mes projets</a>
               <a href="#myself" onclick=lien()>Qui suis-je?</a>
               <a href="#contact" onclick=lien()>Contact</a>
-              <a href="assets/ressource/cv-mathieu.pdf" download onclick=lien()>Telecharger CV</a>
+              <a href="assets/ressource/Cv_Radjouki_Mathieu.pdf" download onclick=lien()>Telecharger CV</a>
             </div>
           </div>
         </div>

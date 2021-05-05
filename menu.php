@@ -30,6 +30,6 @@
           <li><a href="#projects" onclick=lien()>Mes projets</a></li>
           <li><a href="#myself" onclick=lien()>Qui suis-je?</a></li>
           <li><a href="#contact" onclick=lien()>Contact</a></li>
-          <li><a href="assets/ressource/cv-mathieu.pdf" download onclick=lien()>Telecharger CV</a></li>
+          <li><a href="assets/ressource/Cv_Radjouki_Mathieu.pdf" download onclick=lien()>Telecharger CV</a></li>
         </ul>
       </nav>

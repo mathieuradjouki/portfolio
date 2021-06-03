@@ -54,7 +54,7 @@
                 <img src="assets/images/winter-portrait.png" alt="Portrait en illustration de Mathieu RADJOUKI">
             </div>
             <div class="text">
-                <p>Je suis Mathieu RADJOUKI, developpeur et designer web junior. Apres une belle premiere carriere, je me suis reconverti dans le web pour laisser libre court a ma passion du numerique. Ce site vous montre mon parcours.</p>
+                <p>Après 11 ans dans l'Armée de Terre, je suis désormais engagé dans le numérique. Après mes diplômes de Développeur Web et Web Mobile et de Designer Web, je me spécialise aujourd'hui dans l'UX Design.<br>Dès que je range mon clavier vous me trouverez avec mes baskets en randonnée ou sur un VTT pour un peu de cross country.</p>
             </div>
         </div>
     </div>

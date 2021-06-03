@@ -39,3 +39,14 @@
         }
     }
 }
+
+@media screen and (max-width: 1050px){
+    header{
+        .open-menu{
+            display: block;
+        }
+        nav{
+            display: none;
+        }
+    }
+}

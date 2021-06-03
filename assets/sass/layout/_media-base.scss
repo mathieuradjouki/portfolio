@@ -1,13 +1,33 @@
-
-    @media screen and (max-width: 960px){
-        .title{
-            margin: 8%;
-            text-align: center;
-            h1{
-                font-size: large;
-            }
-            .headline{
-                margin-left: 0;
-            }
+@media screen and (max-width: 1050px){
+    .title{
+        h1{
+        font-size: 2.5rem;
         }
     }
+}
+    
+@media screen and (max-width: 960px){
+    .title{
+        margin: 8%!important;
+        text-align: center;
+        .headline{
+            margin-left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .title{
+        h1{
+            font-size: xx-large;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .title{
+        h1{
+            font-size: x-large;
+        }
+    }
+}

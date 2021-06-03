@@ -10,9 +10,7 @@ html body {
 html body h1 {
   font-family: "drifttyperegular";
   color: #C3A686;
-}
-html body h1 .headline {
-  margin-left: 10%;
+  font-size: 50px;
 }
 html body h2 {
   font-family: "drifttypesolid";
@@ -125,7 +123,7 @@ header .overlay a {
   color: #C3A686;
   display: block;
   transition: 0.3s;
-  font-family: "alphawoodregular";
+  font-family: "drifttyperegular";
 }
 header .overlay a:hover, header .overlay a:focus {
   color: #806858;
@@ -141,8 +139,8 @@ header nav {
   margin: auto;
 }
 header nav ul {
-  font-family: "alphawoodregular";
-  font-size: 30px;
+  font-family: "drifttyperegular";
+  font-size: 22px;
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -168,6 +166,10 @@ header .home .section-sign .mobile-home-sign {
 }
 header .home .section-sign img {
   width: 100%;
+}
+header .home .title {
+  text-align: center;
+  margin: auto;
 }
 
 /* Gestion du logo */
@@ -296,12 +298,8 @@ header .main-logo-hover-open {
   width: 100%;
 }
 
-.parcours {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-}
 .parcours .parcours-sign {
-  margin: 0 13% 0 auto;
+  margin: auto;
   width: 20%;
 }
 .parcours .parcours-sign img {
@@ -316,12 +314,8 @@ header .main-logo-hover-open {
   width: 100%;
 }
 
-.technologies {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-}
 .technologies .techno-sign {
-  margin: 5% 5% 0 68%;
+  margin: auto;
   width: 20%;
 }
 .technologies .techno-sign img {
@@ -396,9 +390,7 @@ html body {
 html body h1 {
   font-family: "drifttyperegular";
   color: #C3A686;
-}
-html body h1 .headline {
-  margin-left: 10%;
+  font-size: 50px;
 }
 html body h2 {
   font-family: "drifttypesolid";
@@ -503,6 +495,14 @@ label {
     width: 100%;
   }
 }
+@media screen and (max-width: 1050px) {
+  header .open-menu {
+    display: block;
+  }
+  header nav {
+    display: none;
+  }
+}
 @media screen and (max-width: 960px) {
   .projects {
     display: block;
@@ -542,6 +542,11 @@ label {
   .myself .presentation .portrait {
     margin: auto;
     width: 75%;
+    display: flex;
+    justify-content: center;
+  }
+  .myself .presentation .portrait img {
+    width: 40%;
   }
 
   .parcours {
@@ -551,9 +556,8 @@ label {
     margin: auto;
   }
   .parcours .dates {
-    width: 90%;
+    width: 80%;
     margin: 2% auto;
-    max-height: 200px;
     object-fit: contain;
   }
 
@@ -565,16 +569,28 @@ label {
     width: 90%;
   }
 }
+@media screen and (max-width: 1050px) {
+  .title h1 {
+    font-size: 2.5rem;
+  }
+}
 @media screen and (max-width: 960px) {
   .title {
-    margin: 8%;
+    margin: 8% !important;
     text-align: center;
-  }
-  .title h1 {
-    font-size: large;
   }
   .title .headline {
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 655px) {
+  .title h1 {
+    font-size: xx-large;
+  }
+}
+@media screen and (max-width: 350px) {
+  .title h1 {
+    font-size: x-large;
   }
 }
 @media screen and (max-width: 960px) {

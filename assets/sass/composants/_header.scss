@@ -68,7 +68,7 @@ header{
       color:#C3A686;;
       display: block;
       transition: 0.3s;
-      font-family: 'alphawoodregular';
+      font-family: 'drifttyperegular';
     }
   
     /* When you mouse over the navigation links, change their color */
@@ -88,8 +88,8 @@ header{
         width: 80%;
         margin: auto;
         ul{
-            font-family: 'alphawoodregular';
-            font-size: 30px;
+            font-family: 'drifttyperegular';
+            font-size: 22px;
             text-decoration: none;
             list-style: none;
             display: flex;
@@ -115,6 +115,10 @@ header{
             img{
                 width: 100%;
             }
+        }
+        .title{
+          text-align: center;
+          margin: auto;
         }
     }
 }

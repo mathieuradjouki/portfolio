@@ -28,8 +28,8 @@
           <img src="assets/images/home-mobile.png" alt="Image du panneau accueil mobile" class="mobile-home-sign">
         </div>       
         <div class="title">
-          <h1><span class="headline">Je m'appelle Mathieu RADJOUKI</span><br>
-          Je suis Designer et developpeur Web, Web Mobile.</h1>
+          <h1><span class="headline">Hello! Je suis Mathieu</span><br>
+          UX Designer, Designer Web Junior.</h1>
         </div>
       </div>
     </header>

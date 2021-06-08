@@ -104,7 +104,7 @@ header .close-bar3 {
   width: 35px;
   margin: 6px 0;
   -webkit-transform: rotate(45deg) translate(-9px, -6px);
-  transform: rotate(45deg) translate(-59px, -79px);
+  transform: rotate(45deg) translate(-74px, -64px);
 }
 header .close-bar3 img {
   width: 100%;
@@ -265,7 +265,7 @@ header .main-logo-hover-open {
 }
 .projects .project-cards .col .card a .card-overlay-text {
   color: #806858;
-  font-family: "drifttypesolid";
+  font-family: "abril_fatfaceregular";
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -273,7 +273,8 @@ header .main-logo-hover-open {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  width: 100%;
+  padding: 3%;
 }
 
 .myself {

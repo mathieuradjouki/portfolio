@@ -53,7 +53,7 @@
         </div>  
         <div class="presentation row">
             <div class="portrait">
-                <img src="assets/images/winter-portrait.png" alt="Portrait en illustration de Mathieu RADJOUKI">
+                <img src="assets/images/winter-portrait 1.svg" alt="Portrait en illustration de Mathieu RADJOUKI">
             </div>
             <div class="text">
                 <p>Après 11 ans dans l'Armée de Terre, je suis désormais engagé dans le numérique. Après mes diplômes de Développeur Web et Web Mobile et de Designer Web, je me spécialise aujourd'hui dans l'UX Design.<br>Dès que je range mon clavier vous me trouverez avec mes baskets en randonnée ou sur un VTT pour un peu de cross country.</p>

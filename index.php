@@ -9,7 +9,9 @@
                 <div class="card">
                     <a href="https://mathieur.promo-42.codeur.online/hikingproject/" target="_blank" rel="noopener"><img src="assets/images/mockup-hiking.png" class="card-img-top" alt="mockup de la maquette hiking project">
                     <div class="card-overlay">
-                        <div class="card-overlay-text">Visiter le site!</div>
+                        <div class="card-overlay-text">
+                            <p>Site réalisé en formation. L'objecttif étant d'intégrer un template fournie en respectant le responsive design</p>
+                        </div>
                     </div>
                     </a>
                 </div>
@@ -19,7 +21,7 @@
                     <a href="https://laurineh.promo-42.codeur.online/les-ecarts-de-remuneration/" target="_blank" rel="noopener">
                     <img src="assets/images/mockup-wp.png" class="card-img-top" alt="mockup du site les écarts de rémunérations">
                     <div class="card-overlay">
-                        <div class="card-overlay-text">Visiter le site!</div>
+                        <div class="card-overlay-text">Site réalisé en équipe de 3. Ce site a pour objectif de mettre en lumière les écarts de rémunération en hommes et femmes. Du benchmark à la mise en ligne nous avons réalisé toutes les étapes:<br>_Charte graphique<br>_Wireframing<br>_Maquette<br>_Développement.</div>
                     </div>
                     </a>
                 </div>
@@ -28,7 +30,7 @@
                 <div class="card">
                     <a href="https://adelinel.promo-42.codeur.online/concession/" target="_blank" rel="noopener"><img src="assets/images/mockup-concession.png" class="card-img-top" alt="mockup du site concession auto">
                     <div class="card-overlay">
-                        <div class="card-overlay-text">Visiter le site!</div>
+                        <div class="card-overlay-text">Projet de formation consistant à intégrer une maquette de revisitant le design graphique d'un site existant.</div>
                     </div>
                     </a>
                 </div>
@@ -37,7 +39,7 @@
                 <div class="card">
                     <a href="assets/ressource/page-detail-chenal-hotel.jpeg" target="_blank" rel="noopener"><img src="assets/images/mockup-office-tourisme.png" class="card-img-top" alt="maquette refonte de site office du tourisme">
                     <div class="card-overlay">
-                        <div class="card-overlay-text">Voir la maquette</div>
+                        <div class="card-overlay-text">Maquette réalisée dans le but de revisiter le visuel d'un site existant. Maquette réalisée à l'aide d'abobe XD.</div>
                     </div>
                 </a>
                 </div>
@@ -58,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="parcours row">
+    <div class="parcours">
         <div class="parcours-sign">
             <img src="assets/images/parcours.png" alt="Image du panneau parcours">
         </div>
@@ -66,7 +68,7 @@
             <img src="assets/images/date-cv.png" alt="Illustration du parcours professionnel et de formation">
         </div>
     </div>
-    <div class="technologies row">
+    <div class="technologies">
         <div class="techno-sign">
             <img src="assets/images/techno.png" alt="Image du panneau technologie">
         </div>

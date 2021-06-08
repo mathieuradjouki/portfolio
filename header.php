@@ -9,7 +9,7 @@
      <meta name="Language" CONTENT="fr" />
      <link rel="canonical" href="https://mathieu-radjouki.fr/portfolio/" />
      <link rel="shortcut icon" type="image/png" href="assets/images/logo-hover.png"/>
-     <title>Portfolio Web Designer, Web développeur Mathieu RADJOUKI</title>
+     <title>Portfolio UX Designer/Web Designer de Mathieu RADJOUKI</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link rel="stylesheet" href="assets/css/style.css">
      <meta property="og:title" content="Web designer et Développeur Web Mathieu RADJOUKI">

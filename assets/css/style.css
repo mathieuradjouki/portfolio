@@ -559,7 +559,8 @@ label {
     justify-content: center;
   }
   .myself .presentation .portrait img {
-    width: 40%;
+    width: 50%;
+    height: auto;
   }
 
   .parcours {

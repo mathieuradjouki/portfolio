@@ -10,7 +10,7 @@
                     <a href="https://mathieur.promo-42.codeur.online/hikingproject/" target="_blank" rel="noopener"><img src="assets/images/mockup-hiking.png" class="card-img-top" alt="mockup de la maquette hiking project">
                     <div class="card-overlay">
                         <div class="card-overlay-text">
-                            <p>Site réalisé en formation. L'objecttif étant d'intégrer un template fournie en respectant le responsive design</p>
+                            <p>Site réalisé en formation. L'objectif ici était d'intégrer un template fourni en respectant le responsive design</p>
                         </div>
                     </div>
                     </a>

@@ -311,6 +311,9 @@ header .main-logo-hover-open {
   width: 100%;
 }
 
+.parcours {
+  padding: 4% 0;
+}
 .parcours .parcours-sign {
   margin: auto;
   width: 20%;

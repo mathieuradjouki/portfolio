@@ -18,6 +18,15 @@
      <meta property="og:image" content="">
      <meta property="og:locale" content="fr_FR">
      <meta property="og:site_name" content="Portfolio Mathieu RADJOUKI">
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2365627D48"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2365627D48');
+    </script>
   </head>
   <body>
     <header>
